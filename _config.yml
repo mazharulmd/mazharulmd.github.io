@@ -1,11 +1,23 @@
-title: Mazharul Islam Tusar
-description: >
-  Ph.D. researcher in cybersecurity | AI/ML | Cloud | Privacy Systems
+title: "Mazharul Islam Tusar"
+email: "mazharulislamtusar@gmail.com"
+description: >-
+  Ph.D. researcher focused on cybersecurity, AI/ML, blockchain-based privacy systems, and cloud security.
+baseurl: "" # leave this empty for user sites
+url: "https://mazharsnow.github.io" # the base hostname & protocol for your site
 
-remote_theme: pages-themes/hacker@v0.2.0
+twitter_username: ""
+github_username: "mdmazharulislam"
+linkedin_username: "mazharul-i-tusar"
+orcid_id: "0000-0001-6225-1487"
+medium_username: "mazharulislamtusar"
+
+# Build settings
 markdown: kramdown
-
-# Optional extras
+theme: minima
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-scholar
