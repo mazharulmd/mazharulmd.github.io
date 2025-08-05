@@ -11,23 +11,26 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Professional Experience"
+    url: /professional-experience/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Academic Experience"
+    url: /academic-experience/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Education"
+    url: /education/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Certification"
+    url: /certification/
     
+  - title: "Skills"
+    url: /skills/
+    
+  - title: "Honors & Awards"
+    url: /honors-awards/
+
   - title: "CV"
     url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+
+  - title: "Blog Posts"
+    url: /year-archive/ 
