@@ -10,7 +10,7 @@ permalink: /blog/aws-certified-ai-practitioner-journey/
 
 This article originally appeared on [Medium](https://medium.com/@mazharulislamtusar/how-i-passed-the-aws-certified-ai-practitioner-exam-my-preparation-journey-3f2f2c7c5ac6).
 
-{% include external_link_warning.html %}
+
 
 **In this post I explain:**
 - ✅ Why I took the AIF‑C01 certification
