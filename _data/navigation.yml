@@ -11,12 +11,9 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Professional Experience"
-    url: /professional-experience/    
+  - title: "Experience"
+    url: /experience/    
 
-  - title: "Academic Experience"
-    url: /academic-experience/    
-    
   - title: "Education"
     url: /education/
         
