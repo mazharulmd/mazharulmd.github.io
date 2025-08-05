@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: archive
 permalink: /blog/
 title: "Blog"
@@ -14,4 +14,20 @@ author_profile: true
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
   {% include archive-single.html %}
+{% endfor %} -->
+
+---
+layout: archive
+permalink: /blog/
+title: "Blog"
+author_profile: true
+---
+
+{% for post in site.posts %}
+  <article class="page__content">
+    <h2>{{ post.title }}</h2>
+    <p><strong>📅 Published:</strong> {{ post.date | date: "%B %d, %Y" }}</p>
+    {{ post.content }}
+    <hr>
+  </article>
 {% endfor %}
