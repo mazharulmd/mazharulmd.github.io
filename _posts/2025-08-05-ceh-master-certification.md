@@ -6,6 +6,7 @@ tags:
   - cybersecurity
   - certification
   - CEH
+read_time: 12
 ---
 
 📅 **Published:** August 5, 2025  
