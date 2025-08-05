@@ -30,5 +30,5 @@ main:
     # url: /cv/
     url: /files/resume.pdf
 
-  - title: "Blog Posts"
-    url: /year-archive/ 
+  - title: "Blog"
+    url: /blog/
