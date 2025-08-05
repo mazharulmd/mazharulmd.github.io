@@ -18,7 +18,7 @@ main:
     url: /education/
         
   - title: "Certification"
-    url: /certification/
+    url: /certifications/
     
   - title: "Skills"
     url: /skills/
@@ -27,7 +27,8 @@ main:
     url: /honors-awards/
 
   - title: "CV"
-    url: /cv/
+    # url: /cv/
+    url: /files/resume.pdf
 
   - title: "Blog Posts"
     url: /year-archive/ 

@@ -31,3 +31,32 @@ author_profile: true
 
 - Supported enterprise clients in deploying multi-factor authentication (OneSpan) and conducting advanced threat and vulnerability assessments.  
 - Collaborated on incident response readiness, SOC transformation, and penetration testing initiatives to align solutions with security frameworks and compliance needs.
+
+---
+
+## 🎓 Academic & Research Experience
+
+### Research Assistant  
+**Institute for Advanced Research (IAR) Lab**  
+📍 Joint Research – United International University & North South University | 🗓️ January 2024 – Present  
+
+- Developed and deployed a blockchain-based health insurance system using smart contracts and cryptographic techniques to preserve patient privacy and detect fraud, resulting in a peer-reviewed publication.  
+- Currently leading research on machine learning–based fault detection in healthcare systems, focusing on anomaly identification and predictive diagnostics.
+
+---
+
+### Graduate Research Assistant  
+**CPS-PMU Lab, North South University**  
+📍 Dhaka, Bangladesh | 🗓️ February 2022 – April 2024  
+
+- Developed and tested a cyber-physical system (CPS) testbed using Node-RED for simulating smart grid environments with integrated data and power network flows.  
+- Utilized GridPACK, NS-3, and HELICS to model and synchronize communication and control layers in Linux-based simulations for power grid reliability and security research.
+
+---
+
+### Graduate Teaching Assistant  
+**Department of Electrical & Computer Engineering, NSU**  
+📍 Dhaka, Bangladesh | 🗓️ July 2023 – June 2024  
+
+- Conducted supplemental instruction and review sessions for courses like Advanced DBMS (CSE411), Simulation & Modeling (CSE422), and Internet & Web Technologies (CSE482).  
+- Supported faculty with grading, course logistics, and student consultations to ensure effective academic delivery.
