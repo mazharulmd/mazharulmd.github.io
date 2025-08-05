@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-<!-- # -->
+Hi, I am **Mazharul Islam Tusar**.
 
 I am a passionate cloud infrastructure engineer, cybersecurity specialist, and researcher with a solid foundation in computer science and a mission to build secure, scalable, and impactful digital systems. With professional experience spanning both industry and academia, I bring a unique blend of hands-on engineering, system design, and research-oriented thinking.
 
