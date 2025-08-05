@@ -1,19 +1,10 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
----
-layout: page
-title: "About Me"
-permalink: /about/
----
-
-<img src="{{ site.author.avatar }}" alt="{{ site.author.name }}" style="width: 150px; border-radius: 50%; margin-bottom: 1rem;">
 
 # Md. Mazharul Islam
 
