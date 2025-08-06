@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Mazharul Islam's Portfolio"
+# title                    : "Mazharul Islam's Portfolio"
 title_separator          : "-"
 name                     : &name "Mazharul Islam Tusar"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "https://github.com/mazharsnow/mazharsnow.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "New_Picture.jpg"
+  avatar           : "New_Picture_1_200x200.jpg"
   name             : "Mazharul Islam Tusar"
   pronouns         : # example: "she/her"  
   bio              : "Cybersecurity Specialist | Cloud Engineer | Researcher"
