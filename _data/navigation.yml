@@ -26,13 +26,9 @@ main:
   - title: "Honors & Awards"
     url: /honors-awards/
 
-  # - title: "CV"
-  #   # url: /cv/
-  #   url: /files/resume.pdf
-
   - title: "CV"
-  external_url: "https://mazharsnow.github.io/files/resume.pdf"
-
+    # url: /cv/
+    url: /files/resume.pdf
 
   - title: "Blog"
     url: /blog/
