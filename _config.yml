@@ -13,7 +13,7 @@ title                    : "Snow's Portfolio"
 title_separator          : "-"
 name                     : &name "Mazharul Islam Tusar"
 description              : &description "personal description"
-url                      : https://mazharsnow.github.io/ 
+url                      : https://mazharsnow.github.io
 # baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/mazharsnow/mazharsnow.github.io"
 
@@ -34,8 +34,8 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  orcid            : "http://orcid.org/yourorcidurl"
+  googlescholar    : "https://scholar.google.com/citations?user=LGE4nW4AAAAJ&hl=en"
+  orcid            : "https://orcid.org/0000-0001-6225-1487"
   semantic         : # URL
   researchgate     : # URL
   scopus           : # URL
