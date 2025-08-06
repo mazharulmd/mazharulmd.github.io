@@ -26,9 +26,13 @@ main:
   - title: "Honors & Awards"
     url: /honors-awards/
 
+  # - title: "CV"
+  #   # url: /cv/
+  #   url: /files/resume.pdf
+
   - title: "CV"
-    # url: /cv/
-    url: /files/resume.pdf
+    url: "files/resume.pdf"
+    target: "_blank"
 
   - title: "Blog"
     url: /blog/
