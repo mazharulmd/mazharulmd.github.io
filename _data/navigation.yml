@@ -31,8 +31,8 @@ main:
   #   url: /files/resume.pdf
 
   - title: "CV"
-    url: "files/resume.pdf"
-    target: "_blank"
+    external_url: "https://mazharsnow.github.io/files/resume.pdf"
+
 
   - title: "Blog"
     url: /blog/
