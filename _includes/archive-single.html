@@ -31,8 +31,17 @@
     <h2 class="archive__item-title" itemprop="headline">
 
       {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank">{{ title }}</a>
-      {% else %}
+  {% if post.category == "manuscripts" %}
+    <a href="{{ post.paperurl }}" target="_blank">Journal Paper</a>
+  {% elsif post.category == "conferences" %}
+    <a href="{{ post.paperurl }}" target="_blank">Conference Paper</a>
+  {% elsif post.category == "thesis" %}
+    <a href="{{ post.paperurl }}" target="_blank">Preprint</a>
+  {% else %}
+    <a href="{{ post.paperurl }}" target="_blank">Paper Link</a>
+  {% endif %}
+{% endif %}
+
         <a href="{{ base_path }}{{ post.url }}">{{ title }}</a>
       {% endif %}
 
