@@ -22,7 +22,7 @@ repository               : "https://github.com/mazharsnow/mazharsnow.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "New_Picture_1_200x200.jpg"
+  avatar           : "Mazharul_Islam.png"
   name             : "Md. Mazharul Islam"
   pronouns         : # example: "she/her"  
   bio              : "PhD Applicant in Cybersecurity and Trustworthy AI | Cloud, AI, and Cyber-Physical Systems Security Researcher"
