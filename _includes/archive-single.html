@@ -82,11 +82,20 @@
         {% endif %}
 
         {% if post.bibtexurl %}
-          | <a href="{{ post.bibtexurl }}" target="_blank">Cite</a>
+        | <a href="javascript:void(0);" onclick="toggleBibtex('{{ post.bibtexurl }}', '{{ post.url | slugify }}')">Cite</a>
         {% endif %}
-
       </p>
     {% endif %}
+
+    {% if post.bibtexurl %}
+  <div id="bibtex-{{ post.url | slugify }}" class="bibtex-box" style="display:none; margin-top:10px;">
+    <pre id="bibtex-content-{{ post.url | slugify }}">Loading...</pre>
+    <button onclick="copyBibtex('{{ post.url | slugify }}')" class="btn btn--primary btn--small">
+      Copy to Clipboard
+    </button>
+  </div>
+{% endif %}
+
 
     <!-- Citation Text -->
     {% if post.citation %}
