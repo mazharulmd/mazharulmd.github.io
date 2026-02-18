@@ -12,7 +12,7 @@ venue: "ICACTCE 2024, Springer, Lecture Notes in Networks and Systems"
 
 paperurl: https://link.springer.com/chapter/10.1007/978-3-031-94620-2_24
 
-pdf: /files/blockchain_medical_record_2024.pdf
+pdf: /files/A_Blockchain-Based_Medical_Record_Storage_System_for_Healthcare_Data_Management.pdf
 
 bibtexurl: /files/blockchain_medical_record_2024.bib
 
