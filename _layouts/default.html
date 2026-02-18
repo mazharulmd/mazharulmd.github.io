@@ -27,5 +27,35 @@ layout: compress
 
     {% include scripts.html %}
 
+    <script>
+function toggleBibtex(url, id) {
+  const box = document.getElementById("bibtex-" + id);
+  const content = document.getElementById("bibtex-content-" + id);
+
+  if (box.style.display === "none") {
+    box.style.display = "block";
+
+    if (content.innerText === "Loading...") {
+      fetch(url)
+        .then(response => response.text())
+        .then(data => {
+          content.innerText = data;
+        });
+    }
+  } else {
+    box.style.display = "none";
+  }
+}
+
+function copyBibtex(id) {
+  const text = document.getElementById("bibtex-content-" + id).innerText;
+
+  navigator.clipboard.writeText(text).then(function() {
+    alert("BibTeX copied to clipboard!");
+  });
+}
+</script>
+
+
   </body>
 </html>
