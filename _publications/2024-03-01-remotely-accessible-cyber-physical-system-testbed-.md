@@ -12,7 +12,7 @@ venue: "8th International Conference on Smart Grid and Smart Cities (ICSGSC), IE
 
 paperurl: https://ieeexplore.ieee.org/document/10813893
 
-pdf: /files/cps_testbed_ieee_2024.pdf
+pdf: /files/Remotely_Accessible_Cyber-Physical_System_Testbed_for_Power_Grids_Security_and_Reliability.pdf
 
 bibtexurl: /files/cps_testbed_ieee_2024.bib
 
