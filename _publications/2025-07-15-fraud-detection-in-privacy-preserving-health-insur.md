@@ -14,7 +14,7 @@ paperurl: https://doi.org/10.1002/eng2.70315
 
 pdf: /files/paper1.pdf
 
-bibtexurl: /files/bibtex/fraud_detection_2025.bib
+bibtexurl: /files/fraud_detection_2025.bib
 
 status: "Published"
 
