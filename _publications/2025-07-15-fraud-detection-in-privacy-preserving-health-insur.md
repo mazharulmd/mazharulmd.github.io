@@ -10,9 +10,9 @@ date: 2025-07-15
 
 venue: "Engineering Reports, Wiley"
 
-paperurl: https://doi.org/10.1002/eng2.70315
+paperurl: https://onlinelibrary.wiley.com/doi/10.1002/eng2.70315
 
-pdf: /files/paper1.pdf
+pdf: /files/fraud_detection_2025.pdf
 
 bibtexurl: /files/fraud_detection_2025.bib
 
