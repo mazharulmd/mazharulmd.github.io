@@ -31,23 +31,13 @@
     <h2 class="archive__item-title" itemprop="headline">
 
       {% if post.paperurl %}
-  {% if post.category == "manuscripts" %}
-    <a href="{{ post.paperurl }}" target="_blank">Journal Paper</a>
-  {% elsif post.category == "conferences" %}
-    <a href="{{ post.paperurl }}" target="_blank">Conference Paper</a>
-  {% elsif post.category == "thesis" %}
-    <a href="{{ post.paperurl }}" target="_blank">Preprint</a>
-  {% else %}
-    <a href="{{ post.paperurl }}" target="_blank">Paper Link</a>
-  {% endif %}
-{% endif %}
-
+        <a href="{{ post.paperurl }}" target="_blank">{{ title }}</a>
+      {% else %}
         <a href="{{ base_path }}{{ post.url }}">{{ title }}</a>
       {% endif %}
 
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">
         <i class="fa fa-link" aria-hidden="true"></i>
-        <span class="sr-only">Permalink</span>
       </a>
 
     </h2>
@@ -66,45 +56,42 @@
       </p>
     {% endif %}
 
-    <!-- Abstract / Excerpt -->
-    {% if post.excerpt %}
-      <p class="archive__item-excerpt" itemprop="description">
-        {{ post.excerpt | markdownify }}
-      </p>
-    {% endif %}
-
     <!-- Links Section -->
     {% if post.collection == 'publications' %}
       <p>
 
         {% if post.paperurl %}
-          <a href="{{ post.paperurl }}" target="_blank">Journal Page</a>
+          {% if post.category == "manuscripts" %}
+            <a href="{{ post.paperurl }}" target="_blank">Journal Paper</a>
+          {% elsif post.category == "conferences" %}
+            <a href="{{ post.paperurl }}" target="_blank">Conference Paper</a>
+          {% elsif post.category == "thesis" %}
+            <a href="{{ post.paperurl }}" target="_blank">Preprint</a>
+          {% else %}
+            <a href="{{ post.paperurl }}" target="_blank">Paper Link</a>
+          {% endif %}
         {% endif %}
 
         {% if post.pdf %}
-          {% if post.paperurl %} | {% endif %}
-          <a href="{{ post.pdf }}" target="_blank">PDF</a>
-        {% endif %}
-
-        {% if post.slidesurl %}
-          | <a href="{{ post.slidesurl }}" target="_blank">Slides</a>
+          | <a href="{{ post.pdf }}" target="_blank">PDF</a>
         {% endif %}
 
         {% if post.bibtexurl %}
-        | <a href="javascript:void(0);" onclick="toggleBibtex('{{ post.bibtexurl }}', '{{ post.url | slugify }}')">Cite</a>
+          | <a href="javascript:void(0);" onclick="toggleBibtex('{{ post.bibtexurl }}', '{{ post.url | slugify }}')">Cite</a>
         {% endif %}
+
       </p>
     {% endif %}
 
-      {% if post.bibtexurl %}
-    <div id="bibtex-{{ post.url | slugify }}" class="bibtex-box" style="display:none; margin-top:10px;">
-      <pre id="bibtex-content-{{ post.url | slugify }}">Loading...</pre>
-      <button onclick="copyBibtex('{{ post.url | slugify }}')" class="btn btn--primary btn--small">
-        Copy to Clipboard
-      </button>
-    </div>
+    <!-- BibTeX Popup -->
+    {% if post.bibtexurl %}
+      <div id="bibtex-{{ post.url | slugify }}" style="display:none; margin-top:10px;">
+        <pre id="bibtex-content-{{ post.url | slugify }}">Loading...</pre>
+        <button onclick="copyBibtex('{{ post.url | slugify }}')" class="btn btn--primary btn--small">
+          Copy to Clipboard
+        </button>
+      </div>
     {% endif %}
-
 
     <!-- Citation Text -->
     {% if post.citation %}
