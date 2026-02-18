@@ -6,53 +6,137 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am **Md. Mazharul Islam**.
-
-I am a passionate cloud infrastructure engineer, cybersecurity specialist, and researcher with a solid foundation in computer science and a mission to build secure, scalable, and impactful digital systems. With professional experience spanning both industry and academia, I bring a unique blend of hands-on engineering, system design, and research-oriented thinking.
-
-Currently, I serve as an **Assistant Manager (Cloud)** at Bangladesh Data Center Company Limited (BDCCL), where I manage Oracle Cloud Infrastructure (OCI) deployments in one of the country’s most advanced Tier IV data centers. My responsibilities involve provisioning and automating cloud services, ensuring 99.995% system uptime, and implementing robust security and compliance standards. I take pride in making complex cloud environments efficient, resilient, and easy to maintain.
-
-My journey began with a deep curiosity for how technology can improve lives. This led me to complete both my Bachelor’s and Master’s degrees in Computer Science and Engineering at North South University. My postgraduate research focused on blockchain-based privacy-preserving methods for fraud detection in health insurance systems—a field that sits at the intersection of cybersecurity, machine learning, and digital trust.
+Hi, I am **Md. Mazharul Islam**, a Cloud Infrastructure Engineer and Cybersecurity Researcher preparing to pursue a **PhD in Computer Science**, with a focus on secure, intelligent, and privacy-preserving critical infrastructure.
 
 ---
 
-## 👨‍💻 Professional Experience
+## 🎯 Research Objective
 
-During my time at **EATL** as a Cybersecurity Instructor, I trained over 50 IT professionals through EC-Council’s hands-on iLabs, introducing them to secure configuration, threat analysis, and penetration testing techniques. Previously, at **One World Infotech**, I deployed two-factor authentication (2FA) systems in banking environments, integrated Checkmarx and CoreSecurity tools, and helped clients strengthen their overall cyber defense.
+Prospective PhD researcher specializing in:
+
+* Cybersecurity for cloud and distributed systems
+* Trustworthy Artificial Intelligence and AI security
+* Privacy-preserving systems and encrypted cloud storage
+* Secure cyber-physical systems (CPS) and critical infrastructure
+
+My research focuses on developing:
+
+* Privacy-preserving cloud storage and encrypted data search systems
+* Blockchain-based secure and decentralized architectures
+* Federated and distributed machine learning for security-sensitive environments
+* Defensive architectures for securing Large Language Models (LLMs)
+* AI-driven anomaly detection and resilience in cyber-physical systems
+* Secure and trustworthy AI deployment in critical infrastructure
+
+My long-term goal is to advance the security, resilience, and trustworthiness of intelligent cloud-enabled systems.
 
 ---
 
-## 📚 Research & Academic Roles
+## 🔬 Research Interests
 
-As a **Research Assistant** at the IAR Lab, I collaborated on blockchain solutions to detect and prevent fraud in healthcare claims. We used smart contracts, anonymous credentials, and IPFS to build a decentralized yet privacy-conscious system. In my prior role at the **CPS-PMU Lab**, I developed a cyber-physical testbed simulating power grid communication using NS3, GridPACK, and HELICS, focusing on time synchronization, intrusion detection, and real-time simulation.
+* Cloud Security and Distributed Systems Security
+* Trustworthy AI and Secure Machine Learning
+* Privacy-Preserving Computing and Cryptography
+* Blockchain and Decentralized Security Architectures
+* Cyber-Physical Systems Security
+* Secure Infrastructure for Critical Systems
 
-My teaching assistantship gave me the chance to support advanced coursework in simulation, database systems, and web technologies—reinforcing my understanding while mentoring peers.
+---
+
+## 🧪 Research Highlights
+
+* Published **journal and multiple international conference papers** in cybersecurity, blockchain, AI security, and cloud security
+* First-author publication on **privacy-preserving blockchain-based fraud detection** in Engineering Reports (Wiley)
+* Proposed **defensive architectures for securing Large Language Models in cyber-physical systems**
+* Developed **privacy-preserving encrypted cloud storage and search frameworks**
+* Conducted research on **machine learning-based anomaly detection in critical infrastructure systems**
+* Built cyber-physical system simulation environments using NS3, HELICS, and GridPACK
 
 ---
 
 ## 🎓 Education
 
-- **MSc in Computer Science & Engineering**, North South University – CGPA 3.97/4.00  
-- **BSc in Computer Science & Engineering**, North South University – CGPA 3.24/4.00
+**Master of Science (MSc), Computer Science and Engineering**
+North South University, Bangladesh
+CGPA: **3.97 / 4.00**
+Award: **Vice-Chancellor’s Gold Medal**
+
+Thesis:
+Privacy-preserving encrypted cloud storage and searchable encryption framework
+
+**Bachelor of Science (BSc), Computer Science and Engineering**
+North South University, Bangladesh
+CGPA: **3.24 / 4.00**
 
 ---
 
-## 🧠 Core Competencies
+## 💼 Professional Experience
 
-- **Cloud & DevOps**: Oracle Cloud Infrastructure (OCI), AWS, Azure, Docker, Kubernetes, Terraform
-- **Cybersecurity**: IDS/IPS, PKI, Blockchain Privacy, Vulnerability Assessment, Threat Modelling
-- **Programming**: Python, Bash, JavaScript, C++, Git, RESTful APIs
-- **Simulation & Networking**: NS3, Node-RED, GridPACK, HELICS, Linux Administration
-- **Research**: Fraud Detection, Cryptography, Cyber-Physical Systems, Federated Systems
+**Assistant Manager (Cloud)**
+Bangladesh Data Center Company Limited (BDCCL)
+
+* Provision and manage secure Oracle Cloud Infrastructure (OCI)
+* Design scalable and resilient cloud systems
+* Automate infrastructure using Terraform and containerization technologies
+* Ensure security, compliance, and operational reliability
+
+**Research Assistant — IAR Lab**
+
+* Developed blockchain-based privacy-preserving healthcare fraud detection systems
+* Conduct research on secure AI and anomaly detection
+
+**Graduate Research Assistant — CPS-PMU Lab**
+
+* Developed cyber-physical system testbeds for smart grid security research
+* Simulated distributed infrastructure using NS3, HELICS, and GridPACK
 
 ---
 
-## 🌐 Let’s Connect
+## 🛠 Technical Expertise
 
-I’m always open to collaboration—be it in research, open source, or consulting work. You can reach me at [mazharulislamtusar@gmail.com](mailto:mazharulislamtusar@gmail.com) or connect via the platforms below:
+**Cloud and Infrastructure**
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/mazharul-i-tusar)  
-- 🐙 [GitHub](https://github.com/mazharsnow)  
-- 🧾 [ORCID](https://orcid.org/0000-0001-6225-1487)  
-- ✍️ [Medium](https://medium.com/@mazharulislamtusar)
+* Oracle Cloud Infrastructure (OCI), AWS, Azure
+* Docker, Kubernetes, Terraform
+* Linux system administration
 
+**Security and Cryptography**
+
+* Privacy-preserving systems and encrypted data storage
+* Blockchain security and distributed trust systems
+* Vulnerability assessment and threat modeling
+
+**Artificial Intelligence and Research**
+
+* Machine learning for anomaly detection and security
+* Federated learning and privacy-preserving AI
+* Secure deployment of AI systems
+
+**Programming**
+
+* Python, Bash, C++, JavaScript
+* Git, Linux, REST APIs
+
+---
+
+## 🏆 Academic Achievements
+
+* Vice-Chancellor’s Gold Medal (Highest Academic Distinction)
+* Multiple peer-reviewed international conference publications
+* Journal publication in Engineering Reports (Wiley)
+* Reviewer for international conferences
+
+---
+
+## 🌐 Academic Profiles
+
+* GitHub: https://github.com/mazharsnow
+* LinkedIn: https://www.linkedin.com/in/mazharul-i-tusar
+* ORCID: https://orcid.org/0000-0001-6225-1487
+* Email: [mazharul.islam1@northsouth.edu](mailto:mazharul.islam1@northsouth.edu)
+
+---
+
+## 🎓 PhD Research Goal
+
+To develop secure, trustworthy, and resilient AI-enabled cloud and cyber-physical infrastructure that protects critical systems and enables safe deployment of intelligent technologies.
