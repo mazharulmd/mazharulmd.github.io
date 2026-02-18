@@ -87,14 +87,14 @@
       </p>
     {% endif %}
 
-    {% if post.bibtexurl %}
-  <div id="bibtex-{{ post.url | slugify }}" class="bibtex-box" style="display:none; margin-top:10px;">
-    <pre id="bibtex-content-{{ post.url | slugify }}">Loading...</pre>
-    <button onclick="copyBibtex('{{ post.url | slugify }}')" class="btn btn--primary btn--small">
-      Copy to Clipboard
-    </button>
-  </div>
-{% endif %}
+      {% if post.bibtexurl %}
+    <div id="bibtex-{{ post.url | slugify }}" class="bibtex-box" style="display:none; margin-top:10px;">
+      <pre id="bibtex-content-{{ post.url | slugify }}">Loading...</pre>
+      <button onclick="copyBibtex('{{ post.url | slugify }}')" class="btn btn--primary btn--small">
+        Copy to Clipboard
+      </button>
+    </div>
+    {% endif %}
 
 
     <!-- Citation Text -->

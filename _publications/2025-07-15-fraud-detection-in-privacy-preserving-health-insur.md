@@ -18,5 +18,5 @@ bibtexurl: /files/fraud_detection_2025.bib
 
 status: "Published"
 
-citation: "Islam, Md Mazharul, Mubasshir Ahmed, Rajesh Palit, Mohammad Shahriar Rahman, and Salekul Islam. 2025. Fraud Detection in Privacy-Preserving Health Insurance System Using Blockchain Technology. Engineering Reports."
+citation: "Islam, Md Mazharul, Mubasshir Ahmed, Rajesh Palit, Mohammad Shahriar Rahman, and Salekul Islam. "Fraud Detection in Privacy Preserving Health Insurance System Using Blockchain Technology." Engineering Reports 7, no. 8 (2025): e70315."
 ---
