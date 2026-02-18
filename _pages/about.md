@@ -130,10 +130,10 @@ Bangladesh Data Center Company Limited (BDCCL)
 
 ## 🌐 Academic Profiles
 
-* GitHub: https://github.com/mazharsnow
-* LinkedIn: https://www.linkedin.com/in/mazharul-i-tusar
-* ORCID: https://orcid.org/0000-0001-6225-1487
-* Email: [mazharul.islam1@northsouth.edu](mailto:mazharul.islam1@northsouth.edu)
+- [GitHub](https://github.com/mazharsnow)  
+- [LinkedIn](https://www.linkedin.com/in/mazharul-i-tusar)  
+- [ORCID](https://orcid.org/0000-0001-6225-1487)  
+- [Email](mailto:mazharul.islam1@northsouth.edu)  
 
 ---
 
