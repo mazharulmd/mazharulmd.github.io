@@ -50,7 +50,7 @@ My long-term goal is to advance the security, resilience, and trustworthiness of
 * Proposed **defensive architectures for securing Large Language Models in cyber-physical systems**
 * Developed **privacy-preserving encrypted cloud storage and search frameworks**
 * Conducted research on **machine learning-based anomaly detection in critical infrastructure systems**
-* Built cyber-physical system simulation environments using NS3, HELICS, and GridPACK
+* Built cyber-physical system simulation environments using **NS3, HELICS, and GridPACK**
 
 ---
 
@@ -130,10 +130,10 @@ Bangladesh Data Center Company Limited (BDCCL)
 
 ## 🌐 Academic Profiles
 
-- [GitHub](https://github.com/mazharsnow)  
-- [LinkedIn](https://www.linkedin.com/in/mazharul-i-tusar)  
-- [ORCID](https://orcid.org/0000-0001-6225-1487)  
-- [Email](mailto:mazharul.islam1@northsouth.edu)  
+- GitHub: [https://github.com/mazharsnow](https://github.com/mazharsnow)  
+- LinkedIn: [https://www.linkedin.com/in/mazharul-i-tusar](https://www.linkedin.com/in/mazharul-i-tusar)  
+- ORCID: [https://orcid.org/0000-0001-6225-1487](https://orcid.org/0000-0001-6225-1487)  
+- Email: [mazharul.islam1@northsouth.edu](mailto:mazharul.islam1@northsouth.edu)  
 
 ---
 
