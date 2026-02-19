@@ -58,41 +58,37 @@
 </p>
 {% endif %}
 
+  <!-- Venue, Location, Year, Status -->
+{% if post.collection == 'publications' %}
+  <p>
 
-
-    <!-- Venue and Year -->
-    {% if post.collection == 'publications' %}
-      <p>
-        {% if post.venue %}
-          <i>{{ post.venue }}</i>,
-        {% endif %}
-        {{ post.date | default: "1900-01-01" | date: "%Y" }}
-
-        {% if post.status %}
-          <br><strong>Status:</strong> {{ post.status }}
-        {% endif %}
-      </p>
-
-      <p>
-      <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}
-
-      {% if post.location %}
-      <br>{{ post.location }}
-      {% endif %}
-
-      <br><strong>Status:</strong> {{ post.status }}
-      </p>
-
+    {% if post.venue %}
+      <i>{{ post.venue }}</i>,
     {% endif %}
 
-    {% if post.supervisor %}
-    <p>
+    {{ post.date | default: "1900-01-01" | date: "%Y" }}
+
+    {% if post.location %}
+      <br>{{ post.location }}
+    {% endif %}
+
+    {% if post.status %}
+      <br><strong>Status:</strong> {{ post.status }}
+    {% endif %}
+
+  </p>
+{% endif %}
+
+
+<!-- Supervisor (for thesis only) -->
+{% if post.supervisor %}
+  <p>
     <strong>Supervisor:</strong>
     <a href="{{ post.supervisor_url }}" target="_blank">
-    {{ post.supervisor }}
+      {{ post.supervisor }}
     </a>
-    </p>
-    {% endif %}
+  </p>
+{% endif %}
 
     <!-- Links Section -->
     {% if post.collection == 'publications' %}
@@ -121,11 +117,6 @@
         {% if post.bibtexurl %}
           | <a href="javascript:void(0);" onclick="toggleBibtex('{{ post.bibtexurl }}', '{{ post.url | slugify }}')">Cite</a>
         {% endif %}
-
-        {% if post.bibtexurl %}
-          | <a href="javascript:void(0);" onclick="toggleBibtex('{{ post.bibtexurl }}', '{{ post.url | slugify }}')">Cite</a>
-        {% endif %}
-
       </p>
 
       
