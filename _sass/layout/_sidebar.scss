@@ -90,17 +90,18 @@
     height: auto;
   }
 
-  img {
-    width: 175px;
-    height: 175px;
-    border-radius: 50%;
-    object-fit: cover;
+img {
+  width: 175px;
+  height: 175px;
+  border-radius: 8px;   // slight rounding
+  object-fit: cover;
 
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid var(--global-border-color);
-    }
+  @include breakpoint($large) {
+    padding: 5px;
+    border: 1px solid var(--global-border-color);
   }
+}
+
 }
 
 
