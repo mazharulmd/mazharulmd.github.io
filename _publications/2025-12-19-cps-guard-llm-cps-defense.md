@@ -23,6 +23,4 @@ status: "Accepted and Presented"
 
 pdf: /files/CPS_Guard__Defensive_Architectures_for_Securing_Large_Language_Models_in_Cyber_Physical_Systems.pdf
 
-citation: "Islam, Md. Mazharul, Mubasshir Ahmed, and Niaz Ashraf Khan. CPS-Guard: Defensive Architectures for Securing Large Language Models in Cyber-Physical Systems. ICCIT 2025, IEEE, Cox’s Bazar, Bangladesh."
-
 ---
