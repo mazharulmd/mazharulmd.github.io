@@ -26,15 +26,15 @@ author_profile: true
 <h2>Conference Papers</h2>
 <hr />
 
-{% assign conf_posts = site.publications | where: "category", "conferences" %}
-{% assign total_conf = conf_posts | size %}
+{% assign conf_posts = site.publications | where: "category", "conferences" | sort: "order" | reverse %}
 
-{% assign counter = total_conf %}
+{% assign counter = conf_posts | size %}
 
 {% for post in conf_posts %}
   {% include archive-single.html type="conference" number=counter %}
   {% assign counter = counter | minus: 1 %}
 {% endfor %}
+
 
 
 <!-- Preprints, Thesis, Under Review -->
