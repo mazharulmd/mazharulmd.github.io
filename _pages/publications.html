@@ -11,15 +11,15 @@ author_profile: true
 <h2>Journal Articles</h2>
 <hr />
 
-{% assign journals = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+{% assign journal_posts = site.publications | where: "category", "manuscripts" %}
+{% assign total_journal = journal_posts | size %}
 
-{% assign count = journals | size %}
+{% assign counter = total_journal %}
 
-{% for post in journals %}
-  {% assign number = count | minus: forloop.index0 %}
-  {% include archive-single.html type="journal" number=number %}
+{% for post in journal_posts %}
+  {% include archive-single.html type="journal" number=counter %}
+  {% assign counter = counter | minus: 1 %}
 {% endfor %}
-
 
 <h2>Under Review Journal Articles</h2>
 <hr />
@@ -43,19 +43,17 @@ author_profile: true
 <h2>Accepted and Presented Conference Papers</h2>
 <hr />
 
-{% assign accepted_first = site.publications | where: "status", "Accepted and Presented" | where: "first_author", true | sort: "order" %}
-{% assign accepted_co = site.publications | where: "status", "Accepted and Presented" | where: "first_author", false | sort: "order" %}
+{% assign accepted = site.publications
+  | where: "status", "Accepted and Presented"
+  | sort: "order"
+  | reverse %}
 
-{% assign accepted_all = accepted_first | concat: accepted_co %}
+{% assign count = accepted | size %}
 
-{% assign count = accepted_all | size %}
-
-{% for post in accepted_all %}
+{% for post in accepted %}
   {% assign number = count | minus: forloop.index0 %}
   {% include archive-single.html type="conference" number=number %}
 {% endfor %}
-
-
 
 <h2>Master's Thesis</h2>
 <hr />
