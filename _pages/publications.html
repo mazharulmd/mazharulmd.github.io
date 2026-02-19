@@ -7,26 +7,30 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- Journal Articles -->
+<!-- Journal Papers -->
 <h2>Journal Articles</h2>
 <hr />
 
+{% assign jcounter = 0 %}
 {% for post in site.publications reversed %}
   {% if post.category == "manuscripts" %}
-    {% include archive-single.html %}
+    {% assign jcounter = jcounter | plus: 1 %}
+    {% include archive-single.html type="journal" number=jcounter %}
   {% endif %}
 {% endfor %}
-
 
 <!-- Conference Papers -->
 <h2>Conference Papers</h2>
 <hr />
 
+{% assign ccounter = 0 %}
 {% for post in site.publications reversed %}
   {% if post.category == "conferences" %}
-    {% include archive-single.html %}
+    {% assign ccounter = ccounter | plus: 1 %}
+    {% include archive-single.html type="conference" number=ccounter %}
   {% endif %}
 {% endfor %}
+
 
 
 <!-- Preprints, Thesis, Under Review -->

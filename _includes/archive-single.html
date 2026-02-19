@@ -28,19 +28,22 @@
     {% endif %}
 
     <!-- Title -->
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title">
 
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank">{{ title }}</a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}">{{ title }}</a>
+      {% if include.type == "journal" %}
+        <span style="color:#cc0000; font-weight:bold;">[J{{ include.number }}]</span>
+      {% elsif include.type == "conference" %}
+        <span style="color:#0066cc; font-weight:bold;">[C{{ include.number }}]</span>
       {% endif %}
 
-      <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-        <i class="fa fa-link" aria-hidden="true"></i>
-      </a>
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+      {% endif %}
 
     </h2>
+
 
     <!-- Venue and Year -->
     {% if post.collection == 'publications' %}
