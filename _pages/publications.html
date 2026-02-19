@@ -11,22 +11,24 @@ author_profile: true
 <h2>Journal Articles</h2>
 <hr />
 
-{% assign journals = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+{% assign journals = site.publications | sort: "date" | reverse %}
 
-{% assign count = journals | size %}
+{% assign jcount = 0 %}
+{% for post in journals %}
+  {% if post.category == "manuscripts" %}
+    {% assign jcount = jcount | plus: 1 %}
+  {% endif %}
+{% endfor %}
 
-{% if count > 0 %}
+{% assign jnumber = jcount %}
 
-  {% for post in journals %}
-    {% assign number = count | minus: forloop.index0 %}
-    {% include archive-single.html type="journal" number=number %}
-  {% endfor %}
+{% for post in journals %}
+  {% if post.category == "manuscripts" %}
+    {% include archive-single.html type="journal" number=jnumber %}
+    {% assign jnumber = jnumber | minus: 1 %}
+  {% endif %}
+{% endfor %}
 
-{% else %}
-
-  <p>No journal articles found.</p>
-
-{% endif %}
 
 
 <h2>Under Review Journal Articles</h2>
