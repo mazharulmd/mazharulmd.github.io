@@ -27,22 +27,37 @@
       </div>
     {% endif %}
 
-    <!-- Title -->
-    <h2 class="archive__item-title">
+<!-- Title -->
+<h2 class="archive__item-title">
 
-      {% if include.type == "journal" %}
-        <span style="color:#cc0000; font-weight:bold;">[J{{ include.number }}]</span>
-      {% elsif include.type == "conference" %}
-        <span style="color:#0066cc; font-weight:bold;">[C{{ include.number }}]</span>
-      {% endif %}
+  {% if include.type == "journal" %}
+    <span style="color:#cc0000; font-weight:bold;">[J{{ include.number }}]</span>
+  {% elsif include.type == "conference" %}
+    <span style="color:#0066cc; font-weight:bold;">[C{{ include.number }}]</span>
+  {% elsif include.type == "thesis" %}
+    <span style="color:#009933; font-weight:bold;">[T{{ include.number }}]</span>
+  {% endif %}
 
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-      {% endif %}
+  {% if post.paperurl %}
+    <a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
+  {% else %}
+    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+  {% endif %}
 
-    </h2>
+</h2>
+
+
+<!-- Authors -->
+{% if post.authors %}
+<p class="archive__item-authors">
+
+  {{ post.authors
+    | replace: "Md. Mazharul Islam", "<strong style='color:#000;'>Md. Mazharul Islam</strong>"
+  }}
+
+</p>
+{% endif %}
+
 
 
     <!-- Venue and Year -->
