@@ -28,21 +28,30 @@ author_profile: true
 
 {% assign conf_posts = site.publications | where: "category", "conferences" | sort: "order" | reverse %}
 
-{% assign counter = conf_posts | size %}
-
 {% for post in conf_posts %}
-  {% include archive-single.html type="conference" number=counter %}
-  {% assign counter = counter | minus: 1 %}
+  {% include archive-single.html type="conference" number=post.order %}
 {% endfor %}
 
-
-
-<!-- Preprints, Thesis, Under Review -->
-<h2>Preprints, Thesis, and Under Review</h2>
+<h2>Accepted and Presented Conference Papers</h2>
 <hr />
+{% for post in site.publications %}
+  {% if post.status == "Accepted and Presented" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
-{% for post in site.publications reversed %}
-  {% if post.category == "thesis" or post.status == "Under Review" or post.status == "Submitted" %}
+<h2>Under Review Journal Articles</h2>
+<hr />
+{% for post in site.publications %}
+  {% if post.status == "Under Review" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Master's Thesis</h2>
+<hr />
+{% for post in site.publications %}
+  {% if post.category == "thesis" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
