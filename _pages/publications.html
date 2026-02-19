@@ -43,11 +43,19 @@ author_profile: true
 <h2>Accepted and Presented Conference Papers</h2>
 <hr />
 
-{% assign accepted_posts = site.publications | where: "status", "Accepted and Presented" | sort: "date" | reverse %}
+{% assign accepted = site.publications 
+  | where: "status", "Accepted and Presented" 
+  | sort: "first_author" 
+  | reverse 
+  | sort: "order" %}
 
-{% for post in accepted_posts %}
-  {% include archive-single.html %}
+{% assign counter = accepted.size %}
+
+{% for post in accepted reversed %}
+  {% include archive-single.html counter=counter type="conference" %}
+  {% assign counter = counter | minus: 1 %}
 {% endfor %}
+
 
 <h2>Master's Thesis</h2>
 <hr />
