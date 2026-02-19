@@ -59,6 +59,15 @@
       </p>
     {% endif %}
 
+    {% if post.supervisor %}
+    <p>
+    <strong>Supervisor:</strong>
+    <a href="{{ post.supervisor_url }}" target="_blank">
+    {{ post.supervisor }}
+    </a>
+    </p>
+    {% endif %}
+
     <!-- Links Section -->
     {% if post.collection == 'publications' %}
       <p>
