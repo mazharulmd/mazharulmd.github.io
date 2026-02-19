@@ -21,6 +21,13 @@ author_profile: true
   {% assign counter = counter | minus: 1 %}
 {% endfor %}
 
+<h2>Under Review Journal Articles</h2>
+<hr />
+{% for post in site.publications %}
+  {% if post.status == "Under Review" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
 <!-- Conference Papers -->
 <h2>Conference Papers</h2>
@@ -40,15 +47,6 @@ author_profile: true
 
 {% for post in accepted_posts %}
   {% include archive-single.html %}
-{% endfor %}
-
-
-<h2>Under Review Journal Articles</h2>
-<hr />
-{% for post in site.publications %}
-  {% if post.status == "Under Review" %}
-    {% include archive-single.html %}
-  {% endif %}
 {% endfor %}
 
 <h2>Master's Thesis</h2>

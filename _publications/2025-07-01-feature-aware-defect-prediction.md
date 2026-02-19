@@ -15,5 +15,7 @@ pdf: /files/Enhancing Software Quality with Feature-Aware Defect Prediction Mode
 status: "Accepted and Presented"
 
 authors: "Niaz Ashraf Khan, Md. Ferdous Bin Hafiz, Md. Mazharul Islam, Md. Aktaruzzaman Pramanik"
+first_author: false
+order: 2
 
 ---
