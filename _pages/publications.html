@@ -26,19 +26,22 @@ author_profile: true
 <h2>Conference Papers</h2>
 <hr />
 
-{% assign conf_posts = site.publications | where: "category", "conferences" | sort: "order" | reverse %}
+{% assign conf_posts = site.publications | where: "category", "conferences" | where: "status", "Published" | sort: "order" | reverse %}
 
 {% for post in conf_posts %}
   {% include archive-single.html type="conference" number=post.order %}
 {% endfor %}
 
+<!-- Conference Accepted Papers -->
 <h2>Accepted and Presented Conference Papers</h2>
 <hr />
-{% for post in site.publications %}
-  {% if post.status == "Accepted and Presented" %}
-    {% include archive-single.html %}
-  {% endif %}
+
+{% assign accepted_posts = site.publications | where: "status", "Accepted and Presented" | sort: "date" | reverse %}
+
+{% for post in accepted_posts %}
+  {% include archive-single.html %}
 {% endfor %}
+
 
 <h2>Under Review Journal Articles</h2>
 <hr />
