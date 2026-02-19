@@ -31,19 +31,20 @@
 <h2 class="archive__item-title">
 
   {% if include.type == "journal" %}
-    <span style="color:#000000; font-weight:bold;">[J{{ include.number }}]</span>
+    <span style="color:#04d821; font-weight:bold;">[J{{ include.number }}]</span>
   {% elsif include.type == "conference" %}
-    <span style="color:#000000; font-weight:bold;">[C{{ include.number }}]</span>
+    <span style="color:#0066cc; font-weight:bold;">[C{{ include.number }}]</span>
   {% elsif include.type == "thesis" %}
-    <span style="color:#000000; font-weight:bold;">[T{{ include.number }}]</span>
+    <span style="color:#009933; font-weight:bold;">[T{{ include.number }}]</span>
   {% endif %}
 
   {% if post.paperurl %}
     <a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
   {% else %}
     <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-  {% endif %}s
+  {% endif %}
 </h2>
+
 
 <!-- Authors -->
 {% if post.authors %}
