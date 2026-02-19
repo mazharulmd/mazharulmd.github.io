@@ -1,9 +1,9 @@
 ---
 title: "The Evaluation of Enterprise Resource Planning using ISO 25010 Based Quality Model"
-order: 1
 
 collection: publications
 category: conferences
+order: 1
 
 permalink: /publication/erp-iso25010-quality-model
 

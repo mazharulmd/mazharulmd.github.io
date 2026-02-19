@@ -3,6 +3,7 @@ title: "Fault Detection and Diagnostics of Air Handling Unit in Hospital Buildin
 
 collection: publications
 category: conferences
+order: 4
 
 permalink: /publication/fault-detection-air-handling-unit
 

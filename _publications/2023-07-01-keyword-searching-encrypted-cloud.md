@@ -1,9 +1,9 @@
 ---
 title: "A Keyword Based Searching and Sharing Scheme on the Encrypted Cloud Data"
-order: 2
 
 collection: publications
 category: conferences
+order: 2
 
 permalink: /publication/keyword-searching-encrypted-cloud
 
