@@ -72,6 +72,17 @@
           <br><strong>Status:</strong> {{ post.status }}
         {% endif %}
       </p>
+
+      <p>
+      <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}
+
+      {% if post.location %}
+      <br>{{ post.location }}
+      {% endif %}
+
+      <br><strong>Status:</strong> {{ post.status }}
+      </p>
+
     {% endif %}
 
     {% if post.supervisor %}
@@ -99,6 +110,10 @@
           {% endif %}
         {% endif %}
 
+        {% if post.confurl %}
+          <a href="{{ post.confurl }}" target="_blank">Conference Page</a>
+        {% endif %}
+
         {% if post.pdf %}
           | <a href="{{ post.pdf }}" target="_blank">PDF</a>
         {% endif %}
@@ -107,7 +122,13 @@
           | <a href="javascript:void(0);" onclick="toggleBibtex('{{ post.bibtexurl }}', '{{ post.url | slugify }}')">Cite</a>
         {% endif %}
 
+        {% if post.bibtexurl %}
+          | <a href="javascript:void(0);" onclick="toggleBibtex('{{ post.bibtexurl }}', '{{ post.url | slugify }}')">Cite</a>
+        {% endif %}
+
       </p>
+
+      
     {% endif %}
 
     <!-- BibTeX Popup -->
