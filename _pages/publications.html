@@ -11,26 +11,30 @@ author_profile: true
 <h2>Journal Articles</h2>
 <hr />
 
-{% assign jcounter = 0 %}
-{% for post in site.publications reversed %}
-  {% if post.category == "manuscripts" %}
-    {% assign jcounter = jcounter | plus: 1 %}
-    {% include archive-single.html type="journal" number=jcounter %}
-  {% endif %}
+{% assign journal_posts = site.publications | where: "category", "manuscripts" %}
+{% assign total_journal = journal_posts | size %}
+
+{% assign counter = total_journal %}
+
+{% for post in journal_posts %}
+  {% include archive-single.html type="journal" number=counter %}
+  {% assign counter = counter | minus: 1 %}
 {% endfor %}
+
 
 <!-- Conference Papers -->
 <h2>Conference Papers</h2>
 <hr />
 
-{% assign ccounter = 0 %}
-{% for post in site.publications reversed %}
-  {% if post.category == "conferences" %}
-    {% assign ccounter = ccounter | plus: 1 %}
-    {% include archive-single.html type="conference" number=ccounter %}
-  {% endif %}
-{% endfor %}
+{% assign conf_posts = site.publications | where: "category", "conferences" %}
+{% assign total_conf = conf_posts | size %}
 
+{% assign counter = total_conf %}
+
+{% for post in conf_posts %}
+  {% include archive-single.html type="conference" number=counter %}
+  {% assign counter = counter | minus: 1 %}
+{% endfor %}
 
 
 <!-- Preprints, Thesis, Under Review -->
