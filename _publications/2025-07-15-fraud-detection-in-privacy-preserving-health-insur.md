@@ -3,7 +3,7 @@ title: "Fraud Detection in Privacy-Preserving Health Insurance System Using Bloc
 
 collection: publications
 
-category: manuscripts
+category: journal
 
 permalink: /publication/fraud-detection-blockchain/
 
