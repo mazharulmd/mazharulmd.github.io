@@ -85,11 +85,12 @@
   margin-bottom: 15px;
 
   img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center top;  // shows full face better
+    width: 180px !important;
+    height: 180px !important;
+    max-width: 180px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    object-position: center top !important;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -102,10 +103,16 @@
     @include breakpoint($large) {
       width: 180px;
       height: 180px;
-      padding: 4px;
-      border: 1px solid var(--global-border-color);
+      padding: 0;
+      border: 3px solid var(--global-border-color);
     }
   }
+}
+
+.sidebar .author__avatar img {
+  width: 180px !important;
+  height: 180px !important;
+  border-radius: 50% !important;
 }
 
 .author__content {
