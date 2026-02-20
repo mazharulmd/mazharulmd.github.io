@@ -81,26 +81,21 @@
    ========================================================================== */
 .author__avatar {
   display: block;
-  text-align: center;
+  text-align: left;     // align with text
   margin-bottom: 15px;
+  padding-left: 0;      // remove extra spacing
 
   img {
     width: 180px;
     height: 180px;
-
     border-radius: 50%;
-
-    object-fit: contain;        // shows FULL image, no cropping
-    object-position: center;    // keeps face centered
-
-    background-color: #ffffff;  // fills empty space nicely
-
-    padding: 8px;               // optional, improves appearance
-    box-sizing: border-box;
+    object-fit: contain;
+    object-position: center;
+    background-color: #ffffff;
 
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;     // LEFT ALIGN IMAGE
+    margin-right: 0;
 
     @include breakpoint($small) {
       width: 140px;
