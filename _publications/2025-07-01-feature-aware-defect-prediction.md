@@ -1,13 +1,9 @@
 ---
 title: "Enhancing Software Quality with Feature-Aware Defect Prediction Models"
 
-authors: "Niaz Ashraf Khan, Md. Ferdous Bin Hafiz, Md. Mazharul Islam, Md. Aktaruzzaman Pramanik"
-
-first_author: false
-order: 2
-
 collection: publications
 category: conferences
+order: 2
 
 permalink: /publication/feature-aware-defect-prediction
 
@@ -17,11 +13,11 @@ venue: "16th International Conference on Computing Communication and Networking 
 
 location: "Indore, India"
 
+authors: "Niaz Ashraf Khan, Md. Ferdous Bin Hafiz, Md. Mazharul Islam, and Md. Aktaruzzaman Pramanik"
+
 confurl: "https://16icccnt.com/"
 
+paperurl: /files/Enhancing Software Quality with Feature-Aware Defect Prediction Models.pdf
+
 status: "Accepted and Presented"
-
-pdf: /files/Enhancing Software Quality with Feature-Aware Defect Prediction Models.pdf
-
 ---
-

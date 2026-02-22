@@ -15,6 +15,8 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
+    {% assign id = post.url | slugify %}
+
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -27,117 +29,207 @@
       </div>
     {% endif %}
 
+
 <!-- Title -->
 <h2 class="archive__item-title">
 
   {% if include.type == "journal" %}
-    <span style="color:#04d821; font-weight:bold;">[J{{ include.number }}]</span>
+    <span style="color:#585858; font-weight:bold;">[J{{ include.number }}]</span>
   {% elsif include.type == "conference" %}
-    <span style="color:#0066cc; font-weight:bold;">[C{{ include.number }}]</span>
+    <span style="color:#585858; font-weight:bold;">[C{{ include.number }}]</span>
   {% elsif include.type == "thesis" %}
-    <span style="color:#009933; font-weight:bold;">[T{{ include.number }}]</span>
+    <span style="color:#585858; font-weight:bold;">[T{{ include.number }}]</span>
   {% endif %}
 
-  {% if post.paperurl %}
-    <a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
-  {% else %}
-    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-  {% endif %}
+  <a href="{{ base_path }}{{ post.url }}">
+    {{ post.title }}
+  </a>
+
 </h2>
 
 
 <!-- Authors -->
 {% if post.authors %}
 <p class="archive__item-authors">
-
+  <strong>Authors:</strong>
   {{ post.authors
     | replace: "Md. Mazharul Islam", "<strong style='color:#000;'>Md. Mazharul Islam</strong>"
   }}
+</p>
+{% endif %}
+
+<!-- Supervisor -->
+{% if post.supervisor %}
+<p class="archive__item-authors">
+  <strong>Supervisor:</strong>
+  {% if post.supervisor_url %}
+    <a href="{{ post.supervisor_url }}" target="_blank"><strong>{{ post.supervisor }}</strong></a>
+  {% else %}
+    <strong>{{ post.supervisor }}</strong>
+  {% endif %}
+</p>
+{% endif %}
+
+
+<!-- Venue, Year, Status -->
+{% if post.collection == 'publications' %}
+<p>
+
+  {% if post.venue %}
+    <i>{{ post.venue }}</i>,
+  {% endif %}
+
+  {{ post.date | date: "%Y" }}
+
+  {% if post.location %}
+    <br><i style="color:#666;">📍 {{ post.location }}</i>
+  {% endif %}
+
+  {% if post.status %}
+    <br>
+    {% if post.status == "Published" %}
+      <span style="display:inline-block; margin-top:4px; padding:2px 10px; border-radius:20px; font-size:0.78em; font-weight:600; background-color:#d4edda; color:#155724; border:1px solid #c3e6cb;">
+        ✓ Published
+      </span>
+    {% elsif post.status == "Under Review" %}
+      <span style="display:inline-block; margin-top:4px; padding:2px 10px; border-radius:20px; font-size:0.78em; font-weight:600; background-color:#fff3cd; color:#856404; border:1px solid #ffeeba;">
+        ⏳ Under Review
+      </span>
+    {% elsif post.status == "Accepted" %}
+      <span style="display:inline-block; margin-top:4px; padding:2px 10px; border-radius:20px; font-size:0.78em; font-weight:600; background-color:#cce5ff; color:#004085; border:1px solid #b8daff;">
+        ✓ Accepted
+      </span>
+    {% elsif post.status == "Accepted and Presented" %}
+      <span style="display:inline-block; margin-top:4px; padding:2px 10px; border-radius:20px; font-size:0.78em; font-weight:600; background-color:#d1ecf1; color:#0c5460; border:1px solid #bee5eb;">
+        ✓ Accepted and Presented
+      </span>
+    {% elsif post.status == "Master's Thesis" %}
+    <span style="display:inline-block; margin-top:4px; padding:2px 10px; border-radius:20px; font-size:0.78em; font-weight:600; background-color:#e8d5f5; color:#5a2d82; border:1px solid #d4a8f0;">
+      🎓 Master's Thesis
+    </span>
+    {% else %}
+      <span style="display:inline-block; margin-top:4px; padding:2px 10px; border-radius:20px; font-size:0.78em; font-weight:600; background-color:#e2e3e5; color:#383d41; border:1px solid #d6d8db;">
+        {{ post.status }}
+      </span>
+    {% endif %}
+  {% endif %}
 
 </p>
 {% endif %}
 
-  <!-- Venue, Location, Year, Status -->
+
+<!-- Links Section -->
 {% if post.collection == 'publications' %}
-  <p>
+<p>
 
-    {% if post.venue %}
-      <i>{{ post.venue }}</i>,
-    {% endif %}
+  {% assign has_link = false %}
 
-    {{ post.date | default: "1900-01-01" | date: "%Y" }}
+  {% if post.journalurl %}
+    <a href="{{ post.journalurl }}" target="_blank">{{ include.link_label | default: "DOI" }}</a>
+    {% assign has_link = true %}
+  {% endif %}
 
-    {% if post.location %}
-      <br>{{ post.location }}
-    {% endif %}
+  {% if post.confurl %}
+  <a href="{{ post.confurl }}" target="_blank">Conference Page</a>
+  {% assign has_link = true %}
+  {% endif %}
 
-    {% if post.status %}
-      <br><strong>Status:</strong> {{ post.status }}
-    {% endif %}
+  {% if post.paperurl %}
+    {% if has_link %} | {% endif %}
+    <a href="{{ post.paperurl }}" target="_blank">PDF</a>
+    {% assign has_link = true %}
+  {% endif %}
 
-  </p>
-{% endif %}
-
-
-<!-- Supervisor (for thesis only) -->
-{% if post.supervisor %}
-  <p>
-    <strong>Supervisor:</strong>
-    <a href="{{ post.supervisor_url }}" target="_blank">
-      {{ post.supervisor }}
+  {% if post.citation %}
+    {% if has_link %} | {% endif %}
+    <a href="javascript:void(0);"
+       onclick="toggleBox('citation-{{ post.url | slugify }}')">
+      Citation
     </a>
-  </p>
+    {% assign has_link = true %}
+  {% endif %}
+
+  {% if post.bibtex %}
+    {% if has_link %} | {% endif %}
+    <a href="javascript:void(0);"
+       onclick="toggleBox('bibtex-{{ post.url | slugify }}')">
+      BibTeX
+    </a>
+  {% endif %}
+
+</p>
 {% endif %}
 
-    <!-- Links Section -->
-    {% if post.collection == 'publications' %}
-      <p>
 
-        {% if post.paperurl %}
-          {% if post.category == "manuscripts" %}
-            <a href="{{ post.paperurl }}" target="_blank">Journal Paper</a>
-          {% elsif post.category == "conferences" %}
-            <a href="{{ post.paperurl }}" target="_blank">Conference Paper</a>
-          {% elsif post.category == "thesis" %}
-            <a href="{{ post.paperurl }}" target="_blank">Preprint</a>
-          {% else %}
-            <a href="{{ post.paperurl }}" target="_blank">Paper Link</a>
-          {% endif %}
-        {% endif %}
-
-        {% if post.confurl %}
-          <a href="{{ post.confurl }}" target="_blank">Conference Page</a>
-        {% endif %}
-
-        {% if post.pdf %}
-          | <a href="{{ post.pdf }}" target="_blank">PDF</a>
-        {% endif %}
-
-        {% if post.bibtexurl %}
-          | <a href="javascript:void(0);" onclick="toggleBibtex('{{ post.bibtexurl }}', '{{ post.url | slugify }}')">Cite</a>
-        {% endif %}
-      </p>
-
-      
-    {% endif %}
-
-    <!-- BibTeX Popup -->
-    {% if post.bibtexurl %}
-      <div id="bibtex-{{ post.url | slugify }}" style="display:none; margin-top:10px;">
-        <pre id="bibtex-content-{{ post.url | slugify }}">Loading...</pre>
-        <button onclick="copyBibtex('{{ post.url | slugify }}')" class="btn btn--primary btn--small">
-          Copy to Clipboard
-        </button>
-      </div>
-    {% endif %}
-
-    <!-- Citation Text -->
-    {% if post.citation %}
-      <p>
-        <strong>Citation:</strong><br>
-        {{ post.citation }}
-      </p>
-    {% endif %}
-
-  </article>
+<!-- Citation Popup -->
+{% if post.citation %}
+<div id="citation-{{ post.url | slugify }}" class="popup-box" style="display:none; margin-top:10px; background-color:#f8f9fa; border-left:4px solid #4a90d9; padding:12px 16px; border-radius:4px;">
+  <pre id="citation-text-{{ post.url | slugify }}" style="margin:0 0 10px 0; white-space:pre-wrap; font-size:0.85em;">{{ post.citation | escape }}</pre>
+  <button data-copy="citation-text-{{ post.url | slugify }}"
+          onclick="copyText('citation-text-{{ post.url | slugify }}')"
+          class="btn btn--primary btn--small">
+    Copy Citation
+  </button>
 </div>
+{% endif %}
+
+
+<!-- BibTeX Popup -->
+{% if post.bibtex %}
+<div id="bibtex-{{ post.url | slugify }}" class="popup-box" style="display:none; margin-top:10px; background-color:#f8f9fa; border-left:4px solid #4a90d9; padding:12px 16px; border-radius:4px;">
+  <pre id="bibtex-text-{{ post.url | slugify }}" style="margin:0 0 10px 0; white-space:pre-wrap; font-size:0.85em;">{{ post.bibtex | escape }}</pre>
+  <button data-copy="bibtex-text-{{ post.url | slugify }}"
+          onclick="copyText('bibtex-text-{{ post.url | slugify }}')"
+          class="btn btn--primary btn--small">
+    Copy BibTeX
+  </button>
+</div>
+{% endif %}
+
+
+<!-- Description -->
+{% if post.content %}
+<div class="archive__item-excerpt" style="margin-top:10px;">
+  {{ post.content }}
+</div>
+{% endif %}
+
+
+</article>
+</div>
+
+
+<script>
+function toggleBox(id) {
+  var el = document.getElementById(id);
+  if (!el) {
+    console.log("Element not found: " + id);
+    return;
+  }
+  el.style.display = el.style.display === "block" ? "none" : "block";
+}
+
+function copyText(id) {
+  var textEl = document.getElementById(id);
+  if (!textEl) return;
+  navigator.clipboard.writeText(textEl.innerText).then(function() {
+    var btn = document.querySelector('[data-copy="' + id + '"]');
+    if (!btn) return;
+    var original = btn.innerText;
+    var originalBg = btn.style.backgroundColor;
+    var originalBorder = btn.style.borderColor;
+
+    btn.innerText = "Copied ✓";
+    btn.style.backgroundColor = "#28a745";
+    btn.style.borderColor = "#28a745";
+    btn.style.color = "#fff";
+
+    setTimeout(function() {
+      btn.innerText = original;
+      btn.style.backgroundColor = originalBg;
+      btn.style.borderColor = originalBorder;
+      btn.style.color = "";
+    }, 1500);
+  });
+}
+</script>
