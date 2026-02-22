@@ -11,13 +11,25 @@ date: 2023-07-01
 
 venue: "14th International Conference on Computing Communication and Networking Technologies (ICCCNT), IEEE"
 
-paperurl: https://ieeexplore.ieee.org/document/10308309
+location: "Delhi, India"
 
-pdf: /files/A_Keyword_Based_Searching_and_Sharing_Scheme_on_the_Encrypted_Cloud_Data.pdf
+authors: "Md. Mazharul Islam and Rajesh Palit"
 
-bibtexurl: /files/keyword_searching_encrypted_cloud_2023.bib
+journalurl: https://ieeexplore.ieee.org/document/10308309
+
+paperurl: /files/A_Keyword_Based_Searching_and_Sharing_Scheme_on_the_Encrypted_Cloud_Data.pdf
 
 status: "Published"
 
 citation: 'Islam, Mazharul, and Rajesh Palit. "A Keyword Based Searching and Sharing Scheme on the Encrypted Cloud Data." In 2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT), pp. 1-6. IEEE, 2023.'
+
+bibtex: |
+  @inproceedings{islam2023keyword,
+    title={A Keyword Based Searching and Sharing Scheme on the Encrypted Cloud Data},
+    author={Islam, Mazharul and Palit, Rajesh},
+    booktitle={2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT)},
+    pages={1--6},
+    year={2023},
+    organization={IEEE}
+  }
 ---

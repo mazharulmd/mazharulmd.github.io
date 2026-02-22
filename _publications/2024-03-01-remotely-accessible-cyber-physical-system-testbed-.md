@@ -11,13 +11,26 @@ date: 2024-03-01
 
 venue: "8th International Conference on Smart Grid and Smart Cities (ICSGSC), IEEE"
 
-paperurl: https://ieeexplore.ieee.org/document/10813893
+location: "Shanghai, China"
 
-pdf: /files/Remotely_Accessible_Cyber-Physical_System_Testbed_for_Power_Grids_Security_and_Reliability.pdf
+authors: "Md. Mazharul Islam, Tahmid Ashraf Khan, Sunjare Zulfiker, ASM Jahid Hasan, and Hafiz Abdur Rahman"
 
-bibtexurl: /files/cps_testbed_ieee_2024.bib
+journalurl: https://ieeexplore.ieee.org/document/10813893
+
+paperurl: /files/Remotely_Accessible_Cyber-Physical_System_Testbed_for_Power_Grids_Security_and_Reliability.pdf
 
 status: "Published"
 
-citation: "Islam, Mazharul, Tahmid Ashraf Khan, Sunjare Zulfiker, ASM Jahid Hasan, and Hafiz Abdur Rahman. 2024. Remotely Accessible Cyber-Physical System Testbed for Power Grid's Security and Reliability. IEEE ICSGSC."
+citation: 'Islam, Mazharul, Tahmid Ashraf Khan, Sunjare Zulfiker, ASM Jahid Hasan, and Hafiz Abdur Rahman. "Remotely Accessible Cyber-Physical System Testbed for Power Grid''s Security and Reliability." In 2024 8th International Conference on Smart Grid and Smart Cities (ICSGSC), pp. 436-441. IEEE, 2024.'
+
+bibtex: |
+  @inproceedings{islam2024remotely,
+    title={Remotely Accessible Cyber-Physical System Testbed for Power Grid's Security and Reliability},
+    author={Islam, Mazharul and Khan, Tahmid Ashraf and Zulfiker, Sunjare and Hasan, ASM Jahid and Rahman, Hafiz Abdur},
+    booktitle={2024 8th International Conference on Smart Grid and Smart Cities (ICSGSC)},
+    pages={436--441},
+    year={2024},
+    organization={IEEE},
+    doi={10.1109/ICSGSC62639.2024.10813893}
+  }
 ---

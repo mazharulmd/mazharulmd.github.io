@@ -7,49 +7,70 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- Journal Papers -->
+<!-- Journal Articles -->
 <h2>Journal Articles</h2>
 <hr />
 
-{% assign journals = site.publications | sort: "date" | reverse %}
+{% assign published_journals = site.publications
+  | where: "category", "manuscripts"
+  | where: "status", "Published"
+  | sort: "date"
+  | reverse %}
 
-{% assign jcount = 0 %}
-{% for post in journals %}
-  {% if post.category == "manuscripts" %}
-    {% assign jcount = jcount | plus: 1 %}
-  {% endif %}
-{% endfor %}
-
+{% assign jcount = published_journals | size %}
 {% assign jnumber = jcount %}
 
-{% for post in journals %}
-  {% if post.category == "manuscripts" %}
-    {% include archive-single.html type="journal" number=jnumber %}
-    {% assign jnumber = jnumber | minus: 1 %}
-  {% endif %}
+{% for post in published_journals %}
+  {% include archive-single.html type="journal" number=jnumber link_label="DOI" %}
+  {% assign jnumber = jnumber | minus: 1 %}
 {% endfor %}
 
-
-
-<h2>Under Review Journal Articles</h2>
-<hr />
-{% for post in site.publications %}
-  {% if post.status == "Under Review" %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
 
 <!-- Conference Papers -->
 <h2>Conference Papers</h2>
 <hr />
 
-{% assign conf_posts = site.publications | where: "category", "conferences" | where: "status", "Published" | sort: "order" | reverse %}
+{% assign conf_posts = site.publications
+  | where: "category", "conferences"
+  | where: "status", "Published"
+  | sort: "order"
+  | reverse %}
 
 {% for post in conf_posts %}
-  {% include archive-single.html type="conference" number=post.order %}
+  {% include archive-single.html type="conference" number=post.order link_label="DOI" %}
 {% endfor %}
 
-<!-- Conference Accepted Papers -->
+
+<!-- Master's Thesis -->
+<h2>Master's Thesis</h2>
+<hr />
+
+{% assign thesis_posts = site.publications | where: "category", "thesis" %}
+
+{% for post in thesis_posts %}
+  {% include archive-single.html type="thesis" number=forloop.index link_label="Preprint" %}
+{% endfor %}
+
+
+<!-- Under Review Journal Articles -->
+<h2>Under Review Journal Articles</h2>
+<hr />
+
+{% assign under_review = site.publications
+  | where: "category", "manuscripts"
+  | where: "status", "Under Review"
+  | sort: "date"
+  | reverse %}
+
+{% assign count = under_review | size %}
+
+{% for post in under_review %}
+  {% assign number = count | minus: forloop.index0 %}
+  {% include archive-single.html type="journal" number=number link_label="Journal Page" %}
+{% endfor %}
+
+
+<!-- Accepted and Presented Conference Papers -->
 <h2>Accepted and Presented Conference Papers</h2>
 <hr />
 
@@ -62,15 +83,7 @@ author_profile: true
 
 {% for post in accepted %}
   {% assign number = count | minus: forloop.index0 %}
-  {% include archive-single.html type="conference" number=number %}
-{% endfor %}
-
-<h2>Master's Thesis</h2>
-<hr />
-{% for post in site.publications %}
-  {% if post.category == "thesis" %}
-    {% include archive-single.html %}
-  {% endif %}
+  {% include archive-single.html type="conference" number=number link_label="Journal Page" %}
 {% endfor %}
 
 
@@ -79,7 +92,7 @@ author_profile: true
 <hr />
 
 <p>
-You can find the complete and most up-to-date publication list on my 
+You can find the complete and most up-to-date publication list on my
 <a href="{{ site.author.googlescholar }}" target="_blank">
 Google Scholar profile
 </a>.

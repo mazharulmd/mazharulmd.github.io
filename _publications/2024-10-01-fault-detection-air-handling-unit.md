@@ -11,13 +11,25 @@ date: 2024-10-01
 
 venue: "15th International Conference on Computing Communication and Networking Technologies (ICCCNT), IEEE"
 
-paperurl: https://ieeexplore.ieee.org/document/10724490
+location: "Kamand, India"
 
-pdf: /files/Fault_Detection_and_Diagnostics_of_Air_Handling_Unit_in_Hospital_Building_Using_Machine_Learning.pdf
+authors: "Md. Mazharul Islam, Mubasshir Ahmed, and Niaz Ashraf Khan"
 
-bibtexurl: /files/fault_detection_icccnt_2024.bib
+journalurl: https://ieeexplore.ieee.org/document/10724490
+
+paperurl: /files/Fault_Detection_and_Diagnostics_of_Air_Handling_Unit_in_Hospital_Building_Using_Machine_Learning.pdf
 
 status: "Published"
 
 citation: 'Islam, Md Mazharul, Mubasshir Ahmed, and Niaz Ashraf Khan. "Fault Detection and Diagnostics of Air Handling Unit in Hospital Building Using Machine Learning." In 2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT), pp. 1-6. IEEE, 2024.'
+
+bibtex: |
+  @inproceedings{islam2024fault,
+    title={Fault Detection and Diagnostics of Air Handling Unit in Hospital Building Using Machine Learning},
+    author={Islam, Md Mazharul and Ahmed, Mubasshir and Khan, Niaz Ashraf},
+    booktitle={2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT)},
+    pages={1--6},
+    year={2024},
+    organization={IEEE}
+  }
 ---
