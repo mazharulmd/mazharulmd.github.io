@@ -1,13 +1,12 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-# title                    : "Mazharul Islam's Portfolio"
 title_separator          : "-"
 name                     : &name "Md. Mazharul Islam"
-description              : &description "personal description"
-url                      : https://mazharsnow.github.io
-# baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/mazharsnow/mazharsnow.github.io"
+description              : &description "PhD Applicant in Cybersecurity and Trustworthy AI | Cloud, AI, and Cyber-Physical Systems Security Researcher"
+url                      : "https://mazharulmd.github.io"
+baseurl                  : ""
+repository               : "mazharulmd/mazharulmd.github.io"
 
 author:
   # Biographic information
@@ -33,10 +32,8 @@ author:
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
-  github           : "mazharsnow"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
-
+  github           : "mazharulmd"
+     
   # Social media
   artstation       : # Username
   facebook         : # Username
@@ -283,7 +280,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Dhaka # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
