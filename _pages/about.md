@@ -34,12 +34,10 @@ My long-term goal is to advance the security, resilience, and trustworthiness of
 
 ## 🔬 Research Interests
 
-* Cloud Security and Distributed Systems Security
-* Trustworthy AI and Secure Machine Learning
-* Privacy-Preserving Computing and Cryptography
-* Blockchain and Decentralized Security Architectures
-* Cyber-Physical Systems Security
-* Secure Infrastructure for Critical Systems
+- **Privacy-Preserving Computing & Cryptography** — searchable encryption, homomorphic encryption, identity-based encryption, secure multi-party computation, and privacy-preserving cloud storage
+- **Trustworthy AI & LLM Security** — adversarial robustness, federated learning, secure fine-tuning of LLMs, RAG security, and defensive architectures for AI in safety-critical environments
+- **Cyber-Physical Systems Security** — anomaly detection, resilience, and secure communication in smart grids and IoT-enabled critical infrastructure
+- **Blockchain & Decentralized Security** — privacy-preserving distributed ledgers, smart contract security, and decentralized trust architectures
 
 ---
 
@@ -57,65 +55,49 @@ My long-term goal is to advance the security, resilience, and trustworthiness of
 ## 🎓 Education
 
 **Master of Science (MSc), Computer Science and Engineering**
-North South University, Bangladesh
-CGPA: **3.97 / 4.00**
-Award: **Vice-Chancellor’s Gold Medal**
-
-Thesis:
-Privacy-preserving encrypted cloud storage and searchable encryption framework
+North South University, Bangladesh *(Graduated: Summer 2020)*
+CGPA: **3.97 / 4.00** 
 
 **Bachelor of Science (BSc), Computer Science and Engineering**
-North South University, Bangladesh
+North South University, Bangladesh *(Graduated: Summer 2018)*
 CGPA: **3.24 / 4.00**
 
 ---
 
+## 🔬 Research Experience
+
+**Research Assistant** — Institute for Advanced Research (IAR) Lab *(Jan 2024 – Present)*
+*United International University & North South University*
+Blockchain-based healthcare fraud detection using smart contracts and cryptographic privacy techniques; ML-based anomaly detection in critical infrastructure systems.
+
+**Graduate Research Assistant** — CPS-PMU Lab, North South University *(Feb 2022 – Apr 2024)*
+*PI: Dr. Hafiz Abdur Rahman*
+Developed CPS testbeds for smart grid security simulation; modeled and synchronized communication and control layers using NS-3, HELICS, and GridPACK on Linux-based environments.
+
+**Graduate Teaching Assistant** — Dept. of ECE, North South University *(Jul 2023 – Jun 2024)*
+Supported instruction for CSE411 (Advanced DBMS), CSE422 (Simulation & Modeling), and CSE482 (Internet & Web Technologies).
+
+--- 
+
 ## 💼 Professional Experience
 
-**Assistant Manager (Cloud)**
-Bangladesh Data Center Company Limited (BDCCL)
+**Assistant Manager (Cloud)** — Bangladesh Data Center Company Limited *(Apr 2024 – Present)*
+Oracle Cloud Infrastructure (OCI) provisioning and management; infrastructure automation with Terraform; cloud security, compliance, and SLA delivery.
 
-* Provision and manage secure Oracle Cloud Infrastructure (OCI)
-* Design scalable and resilient cloud systems
-* Automate infrastructure using Terraform and containerization technologies
-* Ensure security, compliance, and operational reliability
+**Cybersecurity Instructor** — Ethics Advanced Technology Limited *(Sep – Nov 2023)*
+Hands-on cybersecurity training for 50+ IT professionals from leading banks using EC-Council's ICBT iLabs; network security, ethical hacking, and incident response.
 
-**Research Assistant — IAR Lab**
-
-* Developed blockchain-based privacy-preserving healthcare fraud detection systems
-* Conduct research on secure AI and anomaly detection
-
-**Graduate Research Assistant — CPS-PMU Lab**
-
-* Developed cyber-physical system testbeds for smart grid security research
-* Simulated distributed infrastructure using NS3, HELICS, and GridPACK
+**Solution Engineer** — One World Infotech Limited *(Dec 2020 – May 2021)*
+Enterprise deployments of multi-factor authentication (OneSpan); penetration testing, SOC transformation, and vulnerability assessments.
 
 ---
 
-## 🛠 Technical Expertise
+## 🏆 Academic Achievements
 
-**Cloud and Infrastructure**
-
-* Oracle Cloud Infrastructure (OCI), AWS, Azure
-* Docker, Kubernetes, Terraform
-* Linux system administration
-
-**Security and Cryptography**
-
-* Privacy-preserving systems and encrypted data storage
-* Blockchain security and distributed trust systems
-* Vulnerability assessment and threat modeling
-
-**Artificial Intelligence and Research**
-
-* Machine learning for anomaly detection and security
-* Federated learning and privacy-preserving AI
-* Secure deployment of AI systems
-
-**Programming**
-
-* Python, Bash, C++, JavaScript
-* Git, Linux, REST APIs
+- 🏅 **Vice-Chancellor's Gold Medal** — North South University, 25th Convocation, December 2024
+- 🥈 **2nd Place Globally** — Huawei ICT Competition 2024 (Network Track), Shenzhen, China
+- 🥉 **3rd Place Nationally** — Huawei ICT Competition 2024, Bangladesh
+- 📝 **Peer Reviewer** — ICDCC-2024 (VIT Bhopal University) and ICIDS-2024 (Manipal University Jaipur)
 
 ---
 
