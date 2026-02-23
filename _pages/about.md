@@ -19,17 +19,6 @@ Prospective PhD researcher specializing in:
 * Privacy-preserving systems and encrypted cloud storage
 * Secure cyber-physical systems (CPS) and critical infrastructure
 
-My research focuses on developing:
-
-* Privacy-preserving cloud storage and encrypted data search systems
-* Blockchain-based secure and decentralized architectures
-* Federated and distributed machine learning for security-sensitive environments
-* Defensive architectures for securing Large Language Models (LLMs)
-* AI-driven anomaly detection and resilience in cyber-physical systems
-* Secure and trustworthy AI deployment in critical infrastructure
-
-My long-term goal is to advance the security, resilience, and trustworthiness of intelligent cloud-enabled systems.
-
 ---
 
 ## 🔬 Research Interests
