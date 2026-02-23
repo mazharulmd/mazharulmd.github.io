@@ -101,15 +101,6 @@ Enterprise deployments of multi-factor authentication (OneSpan); penetration tes
 
 ---
 
-## 🏆 Academic Achievements
-
-* Vice-Chancellor’s Gold Medal (Highest Academic Distinction)
-* Multiple peer-reviewed international conference publications
-* Journal publication in Engineering Reports (Wiley)
-* Reviewer for international conferences
-
----
-
 ## 🌐 Academic Profiles
 
 - GitHub: [https://github.com/mazharsnow](https://github.com/mazharsnow)  
