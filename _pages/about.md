@@ -69,8 +69,8 @@ CGPA: **3.24 / 4.00**
 - Developed co-simulation environments to analyze **cyber-physical attack impacts, resilience, and anomaly detection strategies**.  
 - Automated simulation workflows and improved experimental reproducibility for large-scale CPS security experiments.
 
-### Graduate Teaching Assistant — Dept. of Electrical & Computer Engineering, North South University  
-*Jul 2023 – Jun 2024*  
+### Graduate Teaching Assistant — Dept. of Electrical & Computer Engineering
+*North South University  | Jul 2023 – Jun 2024*  
 - Assisted in teaching and mentoring students in **Advanced DBMS, Simulation & Modeling, and Internet & Web Technologies**.  
 - Provided technical guidance on database design, system modeling, and web architecture concepts.  
 - Evaluated assignments, supported lab sessions, and helped students implement real-world computing projects.
