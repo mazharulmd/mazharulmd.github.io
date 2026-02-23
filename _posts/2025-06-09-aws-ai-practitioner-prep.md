@@ -1,6 +1,6 @@
 ---
 title: "How I Passed the AWS Certified AI Practitioner Exam"
-date: 2025-06-09
+date: 2025-06-24
 layout: single
 author_profile: true
 read_time: true
