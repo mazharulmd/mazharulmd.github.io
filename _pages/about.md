@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am **Md. Mazharul Islam**, a Cloud Infrastructure Engineer and Cybersecurity Researcher preparing to pursue a **PhD in Computer Science**, with a focus on secure, intelligent, and privacy-preserving critical infrastructure.
+Hi, I am **Md. Mazharul Islam**, a Cloud Engineer and Cybersecurity Researcher preparing to pursue a **PhD in Computer Science**, with a focus on secure, intelligent, and privacy-preserving critical infrastructure.
 
 ---
 
