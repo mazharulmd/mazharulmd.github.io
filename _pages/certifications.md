@@ -83,7 +83,7 @@ author_profile: true
 <!-- AWS -->
 <div class="cert-group">
   <p class="cert-group-title">
-    <img src="/files/icons/aws-logo.png" style="height:26px; vertical-align:middle; margin-right:10px;">
+    <!--<img src="/files/icons/aws-logo.png" style="height:26px; vertical-align:middle; margin-right:10px;">-->
     Amazon Web Services (AWS)
   </p>
 
@@ -113,7 +113,7 @@ author_profile: true
 <!-- EC-Council -->
 <div class="cert-group">
   <p class="cert-group-title">
-    <img src="/files/icons/ec-logo.png" style="height:16px; vertical-align:middle; margin-right:6px;">
+    <!--<img src="/files/icons/ec-logo.png" style="height:16px; vertical-align:middle; margin-right:6px;">-->
     EC-Council
   </p>
 
@@ -153,7 +153,7 @@ author_profile: true
 <!-- Oracle -->
 <div class="cert-group">
   <p class="cert-group-title">
-    <img src="/files/icons/Oracle-Cloud-Logo.jpg" style="height:26px; vertical-align:middle; margin-right:10px;">
+    <!--<img src="/files/icons/Oracle-Cloud-Logo.jpg" style="height:26px; vertical-align:middle; margin-right:10px;">-->
     Oracle Cloud
   </p>
 
@@ -183,7 +183,7 @@ author_profile: true
 <!-- Microsoft -->
 <div class="cert-group">
   <p class="cert-group-title">
-    <img src="/files/icons/azure-icon.png" style="height:16px; vertical-align:middle; margin-right:6px;">
+    <!--<img src="/files/icons/azure-icon.png" style="height:16px; vertical-align:middle; margin-right:6px;">-->
     Microsoft Azure
   </p>
 
@@ -203,7 +203,7 @@ author_profile: true
 <!-- AI CERTs -->
 <div class="cert-group">
   <p class="cert-group-title">
-    <img src="/files/icons/ai-cert.png" style="height:46px; vertical-align:middle; margin-right:6px;">
+    <!--<img src="/files/icons/ai-cert.png" style="height:46px; vertical-align:middle; margin-right:6px;">-->
     AI CERTs
   </p>
 
@@ -223,7 +223,7 @@ author_profile: true
 <!-- Udemy -->
 <div class="cert-group">
   <p class="cert-group-title">
-    <img src="/files/icons/udemy-logo.png" style="height:26px; vertical-align:middle; margin-right:10px;">
+    <!--<img src="/files/icons/udemy-logo.png" style="height:26px; vertical-align:middle; margin-right:10px;">-->
     Udemy
   </p>
 
