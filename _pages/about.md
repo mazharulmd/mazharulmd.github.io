@@ -66,16 +66,25 @@ CGPA: **3.24 / 4.00**
 
 ## 🔬 Research Experience
 
-**Research Assistant** — Institute for Advanced Research (IAR) Lab *(Jan 2024 – Present)*
-*United International University & North South University*
-Blockchain-based healthcare fraud detection using smart contracts and cryptographic privacy techniques; ML-based anomaly detection in critical infrastructure systems.
+### Research Assistant — Institute for Advanced Research (IAR) Lab  
+*United International University & North South University | Jan 2024 – Present*  
+- Designing and implementing a **blockchain-based healthcare fraud detection framework** using smart contracts and privacy-preserving cryptographic techniques.  
+- Developing **machine learning–based anomaly detection models** to identify fraudulent and abnormal patterns in healthcare and critical infrastructure data.  
+- Integrating **privacy-enhancing technologies (PETs)** with decentralized systems to ensure secure, compliant, and tamper-resistant data processing.  
+- Conducting experimental evaluation and performance analysis of detection accuracy, scalability, and system security.
 
-**Graduate Research Assistant** — CPS-PMU Lab, North South University *(Feb 2022 – Apr 2024)*
-*PI: Dr. Hafiz Abdur Rahman*
-Developed CPS testbeds for smart grid security simulation; modeled and synchronized communication and control layers using NS-3, HELICS, and GridPACK on Linux-based environments.
+### Graduate Research Assistant — Cyber Physical System Research Lab
+*North South University | Feb 2022 – Apr 2024*  
+- Built and deployed **cyber-physical system (CPS) testbeds** for smart grid security research and attack-defense simulation.  
+- Modeled and synchronized **power system and communication layers** using NS-3, HELICS, and GridPACK in Linux environments.  
+- Developed co-simulation environments to analyze **cyber-physical attack impacts, resilience, and anomaly detection strategies**.  
+- Automated simulation workflows and improved experimental reproducibility for large-scale CPS security experiments.
 
-**Graduate Teaching Assistant** — Dept. of ECE, North South University *(Jul 2023 – Jun 2024)*
-Supported instruction for CSE411 (Advanced DBMS), CSE422 (Simulation & Modeling), and CSE482 (Internet & Web Technologies).
+### Graduate Teaching Assistant — Dept. of Electrical & Computer Engineering, North South University  
+*Jul 2023 – Jun 2024*  
+- Assisted in teaching and mentoring students in **Advanced DBMS, Simulation & Modeling, and Internet & Web Technologies**.  
+- Provided technical guidance on database design, system modeling, and web architecture concepts.  
+- Evaluated assignments, supported lab sessions, and helped students implement real-world computing projects.
 
 --- 
 
