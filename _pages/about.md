@@ -46,6 +46,20 @@ redirect_from:
 
 <section class="rd-sec">
   <div class="rd-sec-head">
+    <span class="rd-eyebrow">// About</span>
+    <h2>Profile</h2>
+    <span class="rd-rule"></span>
+  </div>
+  <p class="rd-lede">I am a cloud engineer and cybersecurity researcher preparing to pursue a
+    <b>PhD in Computer Science</b>. My work sits where cryptography, machine learning, and
+    critical infrastructure meet — <b>privacy-preserving computation</b>, <b>trustworthy AI</b>,
+    and the security of <b>cyber-physical systems</b>. To date this spans a first-author journal
+    article and ten peer-reviewed conference papers, alongside hands-on cloud and security
+    engineering in industry.</p>
+</section>
+
+<section class="rd-sec">
+  <div class="rd-sec-head">
     <span class="rd-eyebrow">// Research interests</span>
     <h2>Where I work</h2>
     <span class="rd-rule"></span>
@@ -107,12 +121,13 @@ redirect_from:
   </div>
 
   <div class="rd-pub">
-    <div class="rd-id">[J2]</div>
+    <div class="rd-id">[J1]</div>
     <div>
-      <h3><a href="/publication/fraud-detection-blockchain/">Fraud Detection in Privacy-Preserving Health Insurance Systems</a></h3>
-      <p class="rd-venue">Engineering Reports, Wiley · 2025</p>
+      <h3><a href="/publication/fraud-detection-blockchain/">Fraud Detection in Privacy Preserving Health Insurance System Using Blockchain Technology</a></h3>
+      <p class="rd-venue">Engineering Reports, Wiley · 7(8), e70315 · 2025</p>
       <div class="rd-meta">
         <span class="rd-pill ok">&#10003; Published</span>
+        <a class="rd-lnk" href="https://doi.org/10.1002/eng2.70315" target="_blank">DOI</a><span class="rd-sep">|</span>
         <a class="rd-lnk" href="/publication/fraud-detection-blockchain/">Details</a>
       </div>
     </div>
@@ -123,52 +138,101 @@ redirect_from:
   </div>
 </section>
 
-<section class="rd-sec" markdown="1">
+<section class="rd-sec">
+  <div class="rd-sec-head">
+    <span class="rd-eyebrow">// Recognition</span>
+    <h2>Honors &amp; credentials</h2>
+    <span class="rd-rule"></span>
+  </div>
+  <div class="rd-hl">
+    <div class="rd-hl-card">
+      <div class="rd-hl-k">Award · 2024</div>
+      <div class="rd-hl-t">Vice-Chancellor's Gold Medal</div>
+      <p class="rd-hl-d">North South University, 25th Convocation — awarded for top academic standing.</p>
+    </div>
+    <div class="rd-hl-card">
+      <div class="rd-hl-k">Competition · 2024</div>
+      <div class="rd-hl-t">2nd Place Globally — Huawei ICT Competition</div>
+      <p class="rd-hl-d">Network Track Global Final, Shenzhen, China; 3rd in the Bangladesh national round.</p>
+    </div>
+    <div class="rd-hl-card">
+      <div class="rd-hl-k">Service</div>
+      <div class="rd-hl-t">Conference Reviewer</div>
+      <p class="rd-hl-d">ICDCC-2024 (VIT Bhopal) and ICIDS-2024 (Manipal University Jaipur).</p>
+    </div>
+    <div class="rd-hl-card">
+      <div class="rd-hl-k">Certifications · 9</div>
+      <div class="rd-hl-t">AWS · CEH · Oracle Cloud · Azure</div>
+      <p class="rd-hl-d">AWS Solutions Architect &amp; AI Practitioner, CEH (Master), OCI GenAI Professional, and more.</p>
+    </div>
+  </div>
+</section>
 
-## About
+<section class="rd-sec">
+  <div class="rd-sec-head">
+    <span class="rd-eyebrow">// Trajectory</span>
+    <h2>Experience</h2>
+    <span class="rd-rule"></span>
+  </div>
+  <div class="rd-tl">
+    <div class="rd-tl-item">
+      <div class="rd-tl-when">Apr 2024 — Present</div>
+      <div class="rd-tl-role">Assistant Manager, Cloud</div>
+      <div class="rd-tl-org">Bangladesh Data Center Company Limited (BDCCL) · Dhaka</div>
+      <p class="rd-tl-desc">Provision and manage Oracle Cloud Infrastructure under an Infrastructure-as-Code model with Terraform; deliver SLA-driven support, security, and compliance.</p>
+    </div>
+    <div class="rd-tl-item">
+      <div class="rd-tl-when">Jan 2024 — Present</div>
+      <div class="rd-tl-role">Research Assistant</div>
+      <div class="rd-tl-org">Institute for Advanced Research (IAR) Lab · UIU &amp; North South University</div>
+      <p class="rd-tl-desc">Built a blockchain-based health-insurance fraud-detection system using smart contracts and privacy-preserving cryptography; ML-based fault and anomaly detection on real-world healthcare data.</p>
+    </div>
+    <div class="rd-tl-item">
+      <div class="rd-tl-when">Feb 2022 — Apr 2024</div>
+      <div class="rd-tl-role">Graduate Research Assistant</div>
+      <div class="rd-tl-org">CPS-PMU Research Lab · North South University</div>
+      <p class="rd-tl-desc">Developed smart-grid cyber-physical testbeds (Node-RED) and co-simulation across power and communication layers with NS-3, HELICS, and GridPACK to study resilience and security.</p>
+    </div>
+    <div class="rd-tl-item">
+      <div class="rd-tl-when">Sep 2023 — Nov 2023</div>
+      <div class="rd-tl-role">Cyber Security Lab Instructor</div>
+      <div class="rd-tl-org">Ethics Advanced Technology Limited (EATL) · Dhaka</div>
+      <p class="rd-tl-desc">Delivered hands-on training to 50+ banking IT professionals using EC-Council iLabs — threat detection, ethical hacking, and incident response.</p>
+    </div>
+    <div class="rd-tl-item">
+      <div class="rd-tl-when">Dec 2020 — May 2021</div>
+      <div class="rd-tl-role">Solution Engineer</div>
+      <div class="rd-tl-org">One World Infotech Limited · Dhaka</div>
+      <p class="rd-tl-desc">Deployed multi-factor authentication (OneSpan) for enterprise clients; penetration testing, SOC transformation, and vulnerability assessment.</p>
+    </div>
+  </div>
+</section>
 
-Hi, I am **Md. Mazharul Islam**, a Cloud Engineer and Cybersecurity Researcher preparing to pursue a **PhD in Computer Science**, with a research focus on AI security, privacy-preserving systems, and secure intelligent infrastructure — among the most urgent challenges as AI becomes central to critical infrastructure and cloud environments.
+<section class="rd-sec">
+  <div class="rd-sec-head">
+    <span class="rd-eyebrow">// Education</span>
+    <h2>Education</h2>
+    <span class="rd-rule"></span>
+  </div>
+  <div class="rd-edu-item">
+    <div>
+      <div class="rd-edu-deg">MSc, Computer Science &amp; Engineering</div>
+      <div class="rd-edu-org">North South University · Thesis: practical encrypted cloud storage &amp; search</div>
+    </div>
+    <div class="rd-edu-meta">2020 · CGPA 3.97 / 4.00</div>
+  </div>
+  <div class="rd-edu-item">
+    <div>
+      <div class="rd-edu-deg">BSc, Computer Science &amp; Engineering</div>
+      <div class="rd-edu-org">North South University · Dhaka, Bangladesh</div>
+    </div>
+    <div class="rd-edu-meta">2018 · CGPA 3.24 / 4.00</div>
+  </div>
 
-## Education
-
-**MSc, Computer Science and Engineering** — North South University, Bangladesh *(Summer 2020)* · CGPA 3.97 / 4.00
-
-**BSc, Computer Science and Engineering** — North South University, Bangladesh *(Summer 2018)* · CGPA 3.24 / 4.00
-
-## Research Experience
-
-### Research Assistant — Institute for Advanced Research (IAR) Lab
-*United International University & North South University · Jan 2024 – Present*
-- Designing a **blockchain-based healthcare fraud detection framework** using smart contracts and privacy-preserving cryptographic techniques.
-- Developing **machine-learning anomaly detection** for fraudulent and abnormal patterns in healthcare and critical-infrastructure data.
-- Integrating **privacy-enhancing technologies (PETs)** with decentralized systems for secure, compliant, tamper-resistant processing.
-
-### Graduate Research Assistant — Cyber Physical System Research Lab
-*North South University · Feb 2022 – Apr 2024*
-- Built and deployed **CPS testbeds** for smart-grid security research and attack–defense simulation.
-- Modeled and synchronized **power-system and communication layers** using NS-3, HELICS, and GridPACK on Linux.
-- Developed co-simulation environments to analyze cyber-physical attack impacts, resilience, and anomaly detection.
-
-### Graduate Teaching Assistant — Dept. of Electrical & Computer Engineering
-*North South University · Jul 2023 – Jun 2024*
-- Taught and mentored students in Advanced DBMS, Simulation & Modeling, and Internet & Web Technologies.
-
-## Professional Experience
-
-**Assistant Manager (Cloud)** — Bangladesh Data Center Company Limited *(Apr 2024 – Present)*
-Oracle Cloud Infrastructure (OCI) provisioning and management; automation with Terraform; cloud security, compliance, and SLA delivery.
-
-**Cybersecurity Instructor** — Ethics Advanced Technology Limited *(Sep – Nov 2023)*
-Hands-on cybersecurity training for 50+ IT professionals from leading banks using EC-Council ICBT iLabs; network security, ethical hacking, and incident response.
-
-**Solution Engineer** — One World Infotech Limited *(Dec 2020 – May 2021)*
-Enterprise multi-factor authentication (OneSpan) deployments; penetration testing, SOC transformation, and vulnerability assessments.
-
-## Academic Achievements
-
-- **Vice-Chancellor's Gold Medal** — North South University, 25th Convocation, December 2024
-- **2nd Place Globally** — Huawei ICT Competition 2024 (Network Track), Shenzhen, China
-- **3rd Place Nationally** — Huawei ICT Competition 2024, Bangladesh
-- **Peer Reviewer** — ICDCC-2024 (VIT Bhopal) and ICIDS-2024 (Manipal University Jaipur)
-
+  <div class="rd-seeall">
+    <a class="rd-chip solid" href="/files/mazharul_islam_cv.pdf" target="_blank">Download full CV</a>
+    <a class="rd-chip" href="/publications/">Publications</a>
+    <a class="rd-chip" href="/experience/">Experience</a>
+    <a class="rd-chip" href="/skills/">Skills</a>
+  </div>
 </section>
