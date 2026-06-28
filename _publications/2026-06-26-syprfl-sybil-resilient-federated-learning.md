@@ -14,7 +14,8 @@ authors: "Md. Mazharul Islam, Mohammad Kaosain Akbar and Niaz Ashraf Khan"
 
 journalurl: "https://www.sciencedirect.com/journal/journal-of-information-security-and-applications"
 
-paperurl: "/files/SyPrFL Sybil-Resilient Privacy-Preserving Federated Learning.pdf"
+paperurl: "/files/Sybil Resilient Privacy Preserving Federated Learning.pdf"
 
 status: "Under Review"
 ---
+
