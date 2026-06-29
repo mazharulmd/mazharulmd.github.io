@@ -2,8 +2,8 @@
 locale                   : "en-US"
 site_theme               : "default"
 title_separator          : "-"
-name                     : &name "Md. Mazharul Islam"
-description              : &description "description              : &description "PhD applicant and researcher in cybersecurity, trustworthy AI, privacy, and cyber-physical systems security."
+name                     : &name "Md Mazharul Islam"
+description              : &description "PhD applicant and researcher in cybersecurity, trustworthy AI, privacy, and cyber-physical systems security."
 url                      : "https://mazharulmd.github.io"
 baseurl                  : ""
 repository               : "mazharulmd/mazharulmd.github.io"
@@ -11,15 +11,14 @@ repository               : "mazharulmd/mazharulmd.github.io"
 author:
   # Biographic information
   avatar           : "Mazharul_Islam.png"
-  name             : "Md. Mazharul Islam"
+  name             : "Md Mazharul Islam"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Applicant in Cybersecurity and Trustworthy AI | Cloud, AI, and Cyber-Physical Systems Security Researcher"
+  bio              : "PhD Applicant · Cybersecurity & Trustworthy AI"
   location         : "Dhaka, Bangladesh"
   employer         : "North South University"
   uri              : # URL
   email            : "mazharul.islam1@northsouth.edu" 
-  cv               : "/files/mazharul_islam_cv.pdf"   
-
+  cv               : "/files/mazharul_islam_cv.pdf"
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
