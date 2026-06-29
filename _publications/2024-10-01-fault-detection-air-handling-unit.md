@@ -13,7 +13,7 @@ venue: "15th International Conference on Computing Communication and Networking 
 
 location: "Kamand, India"
 
-authors: "Md. Mazharul Islam, Mubasshir Ahmed, and Niaz Ashraf Khan"
+authors: "Md Mazharul Islam, Mubasshir Ahmed, and Niaz Ashraf Khan"
 
 journalurl: https://ieeexplore.ieee.org/document/10724490
 

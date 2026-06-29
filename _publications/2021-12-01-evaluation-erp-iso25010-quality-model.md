@@ -13,7 +13,7 @@ venue: "2nd International Informatics and Software Engineering Conference (IISEC
 
 location: "Ankara, Turkey"
 
-authors: "Md. Mazharul Islam, Rajib Imran, and Shazzad Hosain"
+authors: "Md Mazharul Islam, Rajib Imran, and Shazzad Hosain"
 
 journalurl: https://ieeexplore.ieee.org/document/9672349/
 

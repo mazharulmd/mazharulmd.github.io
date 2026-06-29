@@ -13,7 +13,7 @@ venue: "14th International Conference on Computing Communication and Networking 
 
 location: "Delhi, India"
 
-authors: "Md. Mazharul Islam and Rajesh Palit"
+authors: "Md Mazharul Islam and Rajesh Palit"
 
 journalurl: https://ieeexplore.ieee.org/document/10308309
 

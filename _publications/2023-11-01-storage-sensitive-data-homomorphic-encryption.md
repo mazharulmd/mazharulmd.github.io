@@ -13,7 +13,7 @@ venue: "16th International Conference on Security of Information and Networks (S
 
 location: "Jaipur, India"
 
-authors: "Md. Mazharul Islam, Mubasshir Ahmed, and Rajesh Palit"
+authors: "Md Mazharul Islam, Mubasshir Ahmed, and Rajesh Palit"
 
 journalurl: https://ieeexplore.ieee.org/document/10474775
 

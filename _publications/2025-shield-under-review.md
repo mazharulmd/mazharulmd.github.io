@@ -10,7 +10,7 @@ date: 2025-01-01
 
 venue: "Submitted to IET Blockchain"
 
-authors: "Mubasshir Ahmed, Md. Mazharul Islam, Rajesh Palit, Mohammad Shahriar Rahman, and Salekul Islam"
+authors: "Mubasshir Ahmed, Md Mazharul Islam, Rajesh Palit, Mohammad Shahriar Rahman, and Salekul Islam"
 
 journalurl: "https://ietresearch.onlinelibrary.wiley.com/journal/26341573"
 

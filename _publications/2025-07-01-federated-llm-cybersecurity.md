@@ -13,7 +13,7 @@ venue: "16th International Conference on Computing Communication and Networking 
 
 location: "Indore, India"
 
-authors: "Md. Mazharul Islam, Mubasshir Ahmed, Md Redowan Zaman Anik, Mohammad Mahadi Hassain, Mamunur Rashid Alex, and Niaz Ashraf Khan"
+authors: "Md Mazharul Islam, Mubasshir Ahmed, Md Redowan Zaman Anik, Mohammad Mahadi Hassain, Mamunur Rashid Alex, and Niaz Ashraf Khan"
 
 confurl: "https://16icccnt.com/"
 
