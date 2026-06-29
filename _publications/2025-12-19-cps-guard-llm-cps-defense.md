@@ -13,7 +13,7 @@ venue: "28th International Conference on Computer and Information Technology (IC
 
 location: "Cox's Bazar, Bangladesh"
 
-authors: "Md. Mazharul Islam, Mubasshir Ahmed, and Niaz Ashraf Khan"
+authors: "Md Mazharul Islam, Mubasshir Ahmed, and Niaz Ashraf Khan"
 
 journalurl: https://doi.org/10.1109/ICCIT68739.2025.11491276
 

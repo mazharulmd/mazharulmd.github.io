@@ -13,7 +13,7 @@ venue: "16th International Conference on Computing Communication and Networking 
 
 location: "Indore, India"
 
-authors: "Niaz Ashraf Khan, Md. Ferdous Bin Hafiz, Md. Mazharul Islam, Md. Aktaruzzaman Pramanik, and Md. Ahsan Ullah"
+authors: "Niaz Ashraf Khan, Md. Ferdous Bin Hafiz, Md Mazharul Islam, Md. Aktaruzzaman Pramanik, and Md. Ahsan Ullah"
 
 confurl: "https://16icccnt.com/"
 

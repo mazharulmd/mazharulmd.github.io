@@ -13,7 +13,7 @@ venue: "8th International Conference on Smart Grid and Smart Cities (ICSGSC), IE
 
 location: "Shanghai, China"
 
-authors: "Md. Mazharul Islam, Tahmid Ashraf Khan, Sunjare Zulfiker, ASM Jahid Hasan, and Hafiz Abdur Rahman"
+authors: "Md Mazharul Islam, Tahmid Ashraf Khan, Sunjare Zulfiker, ASM Jahid Hasan, and Hafiz Abdur Rahman"
 
 journalurl: https://ieeexplore.ieee.org/document/10813893
 

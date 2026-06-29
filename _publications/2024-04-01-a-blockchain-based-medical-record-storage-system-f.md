@@ -13,7 +13,7 @@ venue: "4th International Conference on Advances in Communication Technology and
 
 location: "Cham, Switzerland"
 
-authors: "Md. Mazharul Islam, Mubasshir Ahmed, Shakib Hossain, and Niaz Ashraf Khan"
+authors: "Md Mazharul Islam, Mubasshir Ahmed, Shakib Hossain, and Niaz Ashraf Khan"
 
 journalurl: https://link.springer.com/chapter/10.1007/978-3-031-94620-2_24
 

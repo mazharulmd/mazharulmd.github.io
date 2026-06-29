@@ -10,7 +10,7 @@ date: 2025-12-01
 
 venue: "Submitted to Security and Privacy (Wiley)"
 
-authors: "Md. Mazharul Islam, Md. Shahadul Alam Patwary, Salekul Islam, and Rajesh Palit"
+authors: "Md Mazharul Islam, Md. Shahadul Alam Patwary, Salekul Islam, and Rajesh Palit"
 
 journalurl: "https://onlinelibrary.wiley.com/journal/24756725"
 

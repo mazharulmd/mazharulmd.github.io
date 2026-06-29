@@ -10,7 +10,7 @@ date: 2025-07-15
 
 venue: "Engineering Reports, Wiley"
 
-authors: "Md. Mazharul Islam, Mubasshir Ahmed, Rajesh Palit, Mohammad Shahriar Rahman, and Salekul Islam"
+authors: "Md Mazharul Islam, Mubasshir Ahmed, Rajesh Palit, Mohammad Shahriar Rahman, and Salekul Islam"
 
 # Journal page link
 journalurl: https://onlinelibrary.wiley.com/doi/10.1002/eng2.70315
