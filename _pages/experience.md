@@ -6,160 +6,118 @@ author_profile: true
 ---
 
 <style>
-.exp-section-title {
-  font-size: 1.15em;
-  font-weight: 700;
-  color: #333;
-  margin: 32px 0 16px 0;
-  padding-bottom: 6px;
-  border-bottom: 2px solid #e0e0e0;
-}
-.exp-card {
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  padding: 20px 24px;
-  margin-bottom: 20px;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  border-left: 5px solid #4a90d9;
-  transition: box-shadow 0.2s ease;
-}
-.exp-card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-}
-.exp-card.academic {
-  border-left-color: #28a745;
-}
-.exp-card .role {
-  font-size: 1.0em;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin: 0 0 3px 0;
-}
-.exp-card .org {
-  font-size: 0.92em;
-  font-weight: 600;
-  color: #4a90d9;
-  margin: 0 0 6px 0;
-}
-.exp-card.academic .org {
-  color: #28a745;
-}
-.exp-card .meta {
-  font-size: 0.83em;
-  color: #666;
-  margin: 0 0 12px 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-.exp-card .duration {
-  display: inline-block;
-  background: #f0f6ff;
-  color: #004085;
-  border: 1px solid #b8daff;
-  border-radius: 20px;
-  padding: 1px 10px;
-  font-size: 0.8em;
-  font-weight: 600;
-}
-.exp-card.academic .duration {
-  background: #f0fff4;
-  color: #155724;
-  border-color: #c3e6cb;
-}
-.exp-card ul {
-  margin: 10px 0 0 0;
-  padding-left: 18px;
-  font-size: 0.88em;
-  color: #444;
-  line-height: 1.7;
-}
-.exp-card ul li {
-  margin-bottom: 6px;
-}
+.hx{ --hx-accent:#2a4fd0; --hx-soft:#eef2fe; --hx-card:#f7f9fc; --hx-border:#e4e8f0; --hx-muted:#586273; --hx-ink:#1a1d24; }
+html[data-theme="dark"] .hx{ --hx-accent:#90a4ff; --hx-soft:#1b2233; --hx-card:#171b24; --hx-border:#2a323f; --hx-muted:#9aa4b3; --hx-ink:#e9ecf2; }
+.hx{ color:inherit; }
+
+.hx-exp-lead{ font-size:1.02rem; line-height:1.6; color:var(--hx-muted); margin:.2rem 0 1.2rem; max-width:62ch; }
+
+.hx-exp > h2{ font-size:1.16rem; font-weight:800; letter-spacing:-.01em; margin:2rem 0 1rem; padding-bottom:.35rem; border-bottom:2px solid var(--hx-border); }
+.hx-exp > h2::before{ content:"/ "; color:var(--hx-accent); }
+.hx-exp > h2:first-of-type{ margin-top:.4rem; }
+
+.hx-xcard{ background:var(--hx-card); border:1px solid var(--hx-border); border-left:3px solid var(--hx-accent); border-radius:10px; padding:1rem 1.2rem; margin:0 0 .8rem; }
+.hx-xhead{ display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:.2rem .8rem; }
+.hx-xrole{ font-size:1.02rem; font-weight:700; color:var(--hx-ink); margin:0; }
+.hx-when{ font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.74rem; font-weight:600; letter-spacing:.02em; color:var(--hx-accent); background:var(--hx-soft); border:1px solid var(--hx-border); border-radius:20px; padding:.18rem .7rem; white-space:nowrap; }
+.hx-xorg{ font-size:.92rem; font-weight:600; color:var(--hx-accent); margin:.18rem 0 .1rem; }
+.hx-xmeta{ font-size:.83rem; color:var(--hx-muted); margin:0; }
+.hx-xcard ul{ list-style:none; margin:.7rem 0 0; padding:0; }
+.hx-xcard li{ position:relative; padding-left:1.3rem; margin:.35rem 0; font-size:.9rem; line-height:1.55; color:var(--hx-ink); }
+.hx-xcard li::before{ content:"\25B8"; position:absolute; left:0; color:var(--hx-accent); font-weight:700; }
 </style>
 
-## 🎓 Academic & Research Experience
+<div class="hx hx-exp">
 
-<div class="exp-card academic">
-  <p class="role">Research Assistant</p>
-  <p class="org">Institute for Advanced Research (IAR) Lab</p>
-  <div class="meta">
-    <span>📍 Joint Research – United International University & North South University</span>
-    <span class="duration">🗓️ January 2024 – Present</span>
+<p class="hx-exp-lead">A track record spanning academic research, university teaching, and industry roles in cloud engineering and cybersecurity.</p>
+
+<h2>Research Experience</h2>
+
+<div class="hx-xcard">
+  <div class="hx-xhead">
+    <p class="hx-xrole">Research Assistant</p>
+    <span class="hx-when">Jan 2024 &ndash; Present</span>
   </div>
+  <div class="hx-xorg">Institute for Advanced Research (IAR) Lab</div>
+  <p class="hx-xmeta">United International University &amp; North South University &middot; Dhaka, Bangladesh</p>
   <ul>
-    <li>Developed and deployed a blockchain-based health insurance system using smart contracts and cryptographic techniques to preserve patient privacy and detect fraud, resulting in a peer-reviewed publication.</li>
-    <li>Currently leading research on machine learning–based fault detection in healthcare systems, focusing on anomaly identification and predictive diagnostics.</li>
+    <li>Designing a privacy-preserving fraud-detection framework for healthcare data using cryptographic techniques and machine-learning anomaly detection.</li>
+    <li>Developing models to identify abnormal and fraudulent patterns across healthcare and critical-infrastructure datasets.</li>
+    <li>Conducting experimental evaluation of detection accuracy, scalability, and system security.</li>
   </ul>
 </div>
 
-<div class="exp-card academic">
-  <p class="role">Graduate Research Assistant</p>
-  <p class="org">CPS-PMU Lab, North South University</p>
-  <div class="meta">
-    <span>📍 Dhaka, Bangladesh</span>
-    <span class="duration">🗓️ February 2022 – April 2024</span>
+<div class="hx-xcard">
+  <div class="hx-xhead">
+    <p class="hx-xrole">Graduate Research Assistant</p>
+    <span class="hx-when">Feb 2022 &ndash; Apr 2024</span>
   </div>
+  <div class="hx-xorg">Cyber-Physical System (CPS-PMU) Research Lab</div>
+  <p class="hx-xmeta">North South University &middot; Dhaka, Bangladesh</p>
   <ul>
-    <li>Developed and tested a cyber-physical system (CPS) testbed using Node-RED for simulating smart grid environments with integrated data and power network flows.</li>
-    <li>Utilized GridPACK, NS-3, and HELICS to model and synchronize communication and control layers in Linux-based simulations for power grid reliability and security research.</li>
+    <li>Built and deployed cyber-physical system (CPS) testbeds for smart-grid security research and attack&ndash;defense simulation.</li>
+    <li>Modeled and synchronized power-system and communication layers using NS-3, HELICS, and GridPACK on Linux.</li>
+    <li>Developed co-simulation environments to analyze attack impact, resilience, and anomaly-detection strategies.</li>
   </ul>
 </div>
 
-<div class="exp-card academic">
-  <p class="role">Graduate Teaching Assistant</p>
-  <p class="org">Department of Electrical & Computer Engineering, NSU</p>
-  <div class="meta">
-    <span>📍 Dhaka, Bangladesh</span>
-    <span class="duration">🗓️ July 2023 – June 2024</span>
+<h2>Teaching Experience</h2>
+
+<div class="hx-xcard">
+  <div class="hx-xhead">
+    <p class="hx-xrole">Graduate Teaching Assistant</p>
+    <span class="hx-when">Jul 2023 &ndash; Jun 2024</span>
   </div>
+  <div class="hx-xorg">Department of Electrical &amp; Computer Engineering</div>
+  <p class="hx-xmeta">North South University &middot; Dhaka, Bangladesh</p>
   <ul>
-    <li>Conducted supplemental instruction and review sessions for courses like Advanced DBMS (CSE411), Simulation & Modeling (CSE422), and Internet & Web Technologies (CSE482).</li>
+    <li>Led supplemental instruction and review sessions for Advanced DBMS (CSE411), Simulation &amp; Modeling (CSE422), and Internet &amp; Web Technologies (CSE482).</li>
     <li>Supported faculty with grading, course logistics, and student consultations to ensure effective academic delivery.</li>
   </ul>
 </div>
 
-## 💼 Professional Experience
+<h2>Professional Experience</h2>
 
-<div class="exp-card">
-  <p class="role">Assistant Manager (Cloud)</p>
-  <p class="org">Bangladesh Data Center Company Limited (BDCCL)</p>
-  <div class="meta">
-    <span>📍 Dhaka, Bangladesh</span>
-    <span class="duration">🗓️ April 2024 – Present</span>
+<div class="hx-xcard">
+  <div class="hx-xhead">
+    <p class="hx-xrole">Assistant Manager (Cloud)</p>
+    <span class="hx-when">Apr 2024 &ndash; Present</span>
   </div>
+  <div class="hx-xorg">Bangladesh Data Center Company Limited (BDCCL)</div>
+  <p class="hx-xmeta">Dhaka, Bangladesh</p>
   <ul>
-    <li>Provision and manage Oracle Cloud Infrastructure (OCI) resources — including compute instances, storage, and databases — tailored to client requirements under an Infrastructure as Code (IaC) model.</li>
-    <li>Deliver ongoing cloud support by troubleshooting and resolving client issues to ensure seamless service delivery and adherence to SLAs.</li>
+    <li>Provision and manage Oracle Cloud Infrastructure (OCI) compute, storage, and database resources under an Infrastructure-as-Code model.</li>
+    <li>Automate infrastructure delivery with Terraform for consistent, repeatable, and auditable deployments.</li>
+    <li>Deliver SLA-driven cloud support, security, and compliance &mdash; troubleshooting and resolving client issues for seamless service.</li>
   </ul>
 </div>
 
-<div class="exp-card">
-  <p class="role">Cyber Security Instructor (Part-Time)</p>
-  <p class="org">Ethics Advanced Technology Limited (EATL)</p>
-  <div class="meta">
-    <span>📍 Dhaka, Bangladesh</span>
-    <span class="duration">🗓️ September 2023 – November 2023</span>
+<div class="hx-xcard">
+  <div class="hx-xhead">
+    <p class="hx-xrole">Cyber Security Instructor (Part-Time)</p>
+    <span class="hx-when">Sep &ndash; Nov 2023</span>
   </div>
+  <div class="hx-xorg">Ethics Advanced Technology Limited (EATL)</div>
+  <p class="hx-xmeta">Dhaka, Bangladesh</p>
   <ul>
-    <li>Conducted hands-on cybersecurity training sessions for 50+ IT professionals from leading banks, using EC-Council's ICBT: Cybersecurity Essentials iLabs.</li>
-    <li>Designed and managed interactive lab exercises, providing individual guidance in network security, ethical hacking, and incident response.</li>
+    <li>Delivered hands-on cybersecurity training to 50+ IT professionals from leading banks using EC-Council ICBT iLabs.</li>
+    <li>Designed and managed interactive labs in network security, ethical hacking, and incident response.</li>
+    <li>Mentored participants individually to strengthen practical threat detection and mitigation skills.</li>
   </ul>
 </div>
 
-<div class="exp-card">
-  <p class="role">Solution Engineer</p>
-  <p class="org">One World Infotech Limited</p>
-  <div class="meta">
-    <span>📍 Gulshan-1, Dhaka, Bangladesh</span>
-    <span class="duration">🗓️ December 2020 – May 2021</span>
+<div class="hx-xcard">
+  <div class="hx-xhead">
+    <p class="hx-xrole">Solution Engineer</p>
+    <span class="hx-when">Dec 2020 &ndash; May 2021</span>
   </div>
+  <div class="hx-xorg">One World Infotech Limited</div>
+  <p class="hx-xmeta">Gulshan-1, Dhaka, Bangladesh</p>
   <ul>
-    <li>Supported enterprise clients in deploying multi-factor authentication (OneSpan) and conducting advanced threat and vulnerability assessments.</li>
-    <li>Collaborated on incident response readiness, SOC transformation, and penetration testing initiatives to align solutions with security frameworks and compliance needs.</li>
+    <li>Deployed enterprise multi-factor authentication (OneSpan) to strengthen client security posture.</li>
+    <li>Conducted penetration testing and vulnerability assessments across enterprise environments.</li>
+    <li>Supported SOC transformation and incident-response readiness aligned with compliance requirements.</li>
   </ul>
 </div>
 
-
+</div>
