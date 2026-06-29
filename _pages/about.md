@@ -12,13 +12,9 @@ html[data-theme="dark"] .hx{ --hx-accent:#90a4ff; --hx-soft:#1b2233; --hx-card:#
 .hx{ color:inherit; }
 .hx-eyebrow{ display:inline-block; font-size:.72rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--hx-accent); margin-bottom:.45rem; }
 .hx-hero h1{ font-size:1.95rem; line-height:1.22; font-weight:800; letter-spacing:-.015em; margin:.1rem 0 .6rem; }
-.hx-lead{ font-size:1.05rem; line-height:1.62; color:var(--hx-muted); margin:0 0 1rem; max-width:62ch; }
+.hx-lead{ font-size:1.05rem; line-height:1.62; color:var(--hx-muted); margin:0 0 1rem; max-width:62ch; text-align:justify; hyphens:auto; }
 .hx-lead b{ color:var(--hx-ink); font-weight:600; }
-.hx-lead {
-  text-align: justify;
-  line-height: 1.62;
-  hyphens: auto;
-}
+
 .hx-stats{ display:flex; flex-wrap:wrap; gap:.5rem; margin:.2rem 0 .2rem; padding:0; list-style:none; }
 .hx-stats li{ font-size:.81rem; font-weight:600; color:var(--hx-ink); background:var(--hx-soft); border:1px solid var(--hx-border); border-radius:999px; padding:.32rem .8rem; }
 .hx h2.hx-h2{ font-size:1.16rem; font-weight:800; letter-spacing:-.01em; margin:2.1rem 0 .9rem; padding-bottom:.35rem; border-bottom:2px solid var(--hx-border); }
@@ -51,7 +47,7 @@ html[data-theme="dark"] .hx{ --hx-accent:#90a4ff; --hx-soft:#1b2233; --hx-card:#
 <div class="hx-hero">
   <span class="hx-eyebrow">PhD Applicant &middot; Cybersecurity &amp; Trustworthy AI</span>
   <h1>Building secure, trustworthy AI for the systems critical infrastructure runs on.</h1>
-  <p class="hx-lead">I am <b>Md. Mazharul Islam</b> &mdash; a cloud engineer and cybersecurity researcher working at the intersection of <b>privacy-preserving computation</b>, <b>trustworthy AI and LLM security</b>, and the <b>resilience of cyber-physical systems</b>. I am pursuing a PhD to design infrastructure that stays secure as intelligent systems take on increasingly critical roles.</p>
+  <p class="hx-lead">Hi, I am <b>Md Mazharul Islam</b> &mdash; a cloud engineer and cybersecurity researcher working at the intersection of <b>privacy-preserving computation</b>, <b>trustworthy AI and LLM security</b>, and the <b>resilience of cyber-physical systems</b>. I am pursuing a PhD to design infrastructure that stays secure as intelligent systems take on increasingly critical roles.</p>
   <ul class="hx-stats">
     <li>MSc CGPA 3.97 / 4.00</li>
     <li>First-author journal + 10 conference papers</li>
