@@ -14,6 +14,11 @@ html[data-theme="dark"] .hx{ --hx-accent:#90a4ff; --hx-soft:#1b2233; --hx-card:#
 .hx-hero h1{ font-size:1.95rem; line-height:1.22; font-weight:800; letter-spacing:-.015em; margin:.1rem 0 .6rem; }
 .hx-lead{ font-size:1.05rem; line-height:1.62; color:var(--hx-muted); margin:0 0 1rem; max-width:62ch; }
 .hx-lead b{ color:var(--hx-ink); font-weight:600; }
+.hx-lead {
+  text-align: justify;
+  line-height: 1.62;
+  hyphens: auto;
+}
 .hx-stats{ display:flex; flex-wrap:wrap; gap:.5rem; margin:.2rem 0 .2rem; padding:0; list-style:none; }
 .hx-stats li{ font-size:.81rem; font-weight:600; color:var(--hx-ink); background:var(--hx-soft); border:1px solid var(--hx-border); border-radius:999px; padding:.32rem .8rem; }
 .hx h2.hx-h2{ font-size:1.16rem; font-weight:800; letter-spacing:-.01em; margin:2.1rem 0 .9rem; padding-bottom:.35rem; border-bottom:2px solid var(--hx-border); }
@@ -51,14 +56,13 @@ html[data-theme="dark"] .hx{ --hx-accent:#90a4ff; --hx-soft:#1b2233; --hx-card:#
     <li>MSc CGPA 3.97 / 4.00</li>
     <li>First-author journal + 10 conference papers</li>
     <li>Vice-Chancellor's Gold Medal</li>
-    <li>2nd Globally &mdash; Huawei ICT 2024</li>
   </ul>
 </div>
 
 <h2 class="hx-h2"><span class="m">/</span> Research Focus</h2>
 <div class="hx-cards">
   <div class="hx-card">
-    <h3>Privacy-Preserving Computing &amp; Cryptography</h3>
+    <h3>Privacy-Preserving &amp; Cryptography</h3>
     <p>Searchable and homomorphic encryption, identity-based encryption, secure multi-party computation, and privacy-preserving cloud storage.</p>
   </div>
   <div class="hx-card">
