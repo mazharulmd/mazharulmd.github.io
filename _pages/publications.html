@@ -7,6 +7,57 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+.hx{ --hx-accent:#2a4fd0; --hx-soft:#eef2fe; --hx-card:#f7f9fc; --hx-border:#e4e8f0; --hx-muted:#586273; --hx-ink:#1a1d24; }
+html[data-theme="dark"] .hx{ --hx-accent:#90a4ff; --hx-soft:#1b2233; --hx-card:#171b24; --hx-border:#2a323f; --hx-muted:#9aa4b3; --hx-ink:#e9ecf2; }
+.hx{ color:inherit; }
+
+/* intro line */
+.hx-pub-lead{ font-size:1.02rem; line-height:1.6; color:var(--hx-muted); margin:.2rem 0 1.4rem; max-width:62ch; }
+
+/* section headers (direct children only — not the item titles) */
+.hx-pub > hr{ display:none; }
+.hx-pub > h2{ font-size:1.16rem; font-weight:800; letter-spacing:-.01em; margin:2.2rem 0 1rem; padding-bottom:.35rem; border-bottom:2px solid var(--hx-border); }
+.hx-pub > h2::before{ content:"/ "; color:var(--hx-accent); }
+.hx-pub > h2:first-of-type{ margin-top:.4rem; }
+
+/* spacing of the per-entry wrappers */
+.hx-pub .journal__item, .hx-pub .conference__item, .hx-pub .thesis__item, .hx-pub .list__item{ margin-bottom:.7rem; }
+
+/* each entry as a clean card with an accent spine */
+.hx-pub .archive__item{ background:var(--hx-card); border:1px solid var(--hx-border); border-left:3px solid var(--hx-accent); border-radius:10px; padding:.85rem 1.1rem; }
+
+/* title + index tag */
+.hx-pub .archive__item-title{ font-size:1.0rem; font-weight:700; line-height:1.4; margin:0 0 .3rem; padding:0; border:0; }
+.hx-pub .archive__item-title a{ color:var(--hx-ink); }
+.hx-pub .archive__item-title a:hover{ color:var(--hx-accent); }
+.hx-pub .archive__item-title span{ color:var(--hx-accent) !important; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; margin-right:.25rem; }
+
+/* authors / supervisor */
+.hx-pub .archive__item-authors{ font-size:.85rem; color:var(--hx-muted); margin:.15rem 0 .3rem; }
+.hx-pub .archive__item-authors strong{ color:var(--hx-ink) !important; }
+
+/* venue / year / meta */
+.hx-pub .archive__item p{ font-size:.88rem; color:var(--hx-muted); margin:.2rem 0; line-height:1.5; }
+.hx-pub .archive__item p i{ color:var(--hx-ink); }
+
+/* link row (DOI | PDF | Citation | BibTeX) */
+.hx-pub .archive__item p a{ color:var(--hx-accent); font-weight:600; }
+.hx-pub .archive__item p a:hover{ text-decoration:underline; }
+
+/* google-scholar line at the bottom */
+.hx-pub > p{ font-size:.95rem; color:var(--hx-muted); }
+.hx-pub > p a{ color:var(--hx-accent); font-weight:600; }
+
+/* citation / bibtex popups — match theme + dark mode */
+.hx-pub .popup-box{ background:var(--hx-card) !important; border:1px solid var(--hx-border) !important; border-left:4px solid var(--hx-accent) !important; }
+.hx-pub .popup-box pre{ color:var(--hx-ink); }
+</style>
+
+<div class="hx hx-pub">
+
+<p class="hx-pub-lead">Peer-reviewed research across privacy-preserving computing, trustworthy AI and LLM security, and cyber-physical systems. Each entry links to its DOI, PDF, citation, and BibTeX.</p>
+
 <!-- Journal Articles -->
 <h2>Journal Articles</h2>
 <hr />
@@ -97,3 +148,5 @@ You can find the complete and most up-to-date publication list on my
 Google Scholar profile
 </a>.
 </p>
+
+</div>
