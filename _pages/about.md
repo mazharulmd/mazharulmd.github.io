@@ -46,7 +46,7 @@ html[data-theme="dark"] .hx{ --hx-accent:#90a4ff; --hx-soft:#1b2233; --hx-card:#
 <div class="hx-hero">
   <span class="hx-eyebrow">PhD Applicant &middot; Cybersecurity &amp; Trustworthy AI</span>
   <h1>Building secure, trustworthy AI for the systems critical infrastructure runs on.</h1>
-  <p class="hx-lead">I am <b>Md Mazharul Islam</b> &mdash; a cloud engineer and cybersecurity researcher working at the intersection of privacy-preserving computation, trustworthy AI and LLM security, and the resilience of cyber-physical systems. I am pursuing a PhD to design infrastructure that stays secure as intelligent systems take on increasingly critical roles.</p>
+  <p class="hx-lead">Hi, I am <b>Md Mazharul Islam</b> &mdash; a cloud engineer and cybersecurity researcher working at the intersection of privacy-preserving computation, trustworthy AI and LLM security, and the resilience of cyber-physical systems. I am pursuing a PhD to design infrastructure that stays secure as intelligent systems take on increasingly critical roles.</p>
   <ul class="hx-stats">
     <li>MSc CGPA 3.97 / 4.00</li>
     <li>First-author journals + 10 conference papers</li>
