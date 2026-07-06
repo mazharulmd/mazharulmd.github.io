@@ -1,4 +1,4 @@
-# Md. Mazharul Islam — Academic Portfolio
+# Md Mazharul Islam — Academic Portfolio
 
 ![Jekyll](https://img.shields.io/badge/Jekyll-CC0000?logo=jekyll&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222?logo=github&logoColor=white)
