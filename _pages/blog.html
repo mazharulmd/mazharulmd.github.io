@@ -29,6 +29,8 @@ html[data-theme="dark"] .hx{ --hx-accent:#90a4ff; --hx-soft:#1b2233; --hx-card:#
 .hx-blist li{ font-size:.9rem; line-height:1.6; color:var(--hx-ink); margin:.2rem 0; }
 .hx-medium-btn{ display:inline-block; margin-top:.9rem; padding:.5rem 1.2rem; background:#2a4fd0; color:#fff; border-radius:25px; font-weight:600; text-decoration:none; font-size:.82rem; transition:background .18s ease; }
 .hx-medium-btn:hover{ background:#2440b8; color:#fff; }
+.hx-medium-alt{ display:inline-block; margin-top:.9rem; margin-left:.9rem; font-size:.8rem; color:var(--hx-muted); text-decoration:none; }
+.hx-medium-alt:hover{ color:var(--hx-accent); }
 </style>
 
 <div class="hx hx-blog">
@@ -61,8 +63,9 @@ html[data-theme="dark"] .hx{ --hx-accent:#90a4ff; --hx-soft:#1b2233; --hx-card:#
       </ul>
     {% endif %}
 
+    <a href="{{ base_path }}{{ post.url }}" class="hx-medium-btn">Read article &rarr;</a>
     {% if post.mediumurl %}
-      <a href="{{ post.mediumurl }}" target="_blank" class="hx-medium-btn">Read full article on Medium &#8599;</a>
+      <a href="{{ post.mediumurl }}" target="_blank" class="hx-medium-alt">Also on Medium &#8599;</a>
     {% endif %}
   </div>
 
