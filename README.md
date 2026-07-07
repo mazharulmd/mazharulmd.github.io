@@ -17,25 +17,25 @@ A Jekyll static site built on the [AcademicPages](https://github.com/academicpag
 
 **Sections (top navigation):**
 
-- **Home** — research focus, highlights, and selected work
-- **Publications** — journal articles, conference papers, thesis, and manuscripts under review
-- **Education** — degrees and thesis
-- **Experience** — research, teaching, and professional roles
-- **Certifications** — verifiable industry credentials (AWS, EC-Council, Oracle, Azure)
-- **Skills** — technical toolkit
-- **Honors & Awards** — recognition and academic service
-- **CV** — downloadable PDF
-- **Blog** — self-hosted write-ups (also mirrored on Medium)
+- **Home** - research focus, highlights, and selected work
+- **Publications** - journal articles, conference papers, thesis, and manuscripts under review
+- **Education** - degrees and thesis
+- **Experience** - research, teaching, and professional roles
+- **Certifications** - verifiable industry credentials (AWS, EC-Council, Oracle, Azure)
+- **Skills** - technical toolkit
+- **Honors & Awards** - recognition and academic service
+- **CV** - downloadable PDF
+- **Blog** - self-hosted write-ups (also mirrored on Medium)
 
 ---
 
 ## Tech Stack
 
-- **Jekyll** — static site generator
-- **GitHub Pages** — hosting and CI
-- **Markdown + Liquid** — content and templating
-- **HTML / SCSS** — structure and styling
-- **YAML** — configuration and data files
+- **Jekyll** - static site generator
+- **GitHub Pages** - hosting and CI
+- **Markdown + Liquid** - content and templating
+- **HTML / SCSS** - structure and styling
+- **YAML** - configuration and data files
 
 ---
 
