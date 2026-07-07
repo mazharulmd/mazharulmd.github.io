@@ -4,7 +4,7 @@ site_theme               : "default"
 title_separator          : "-"
 name                     : &name "Md Mazharul Islam"
 description              : &description "PhD applicant and researcher in cybersecurity, trustworthy AI, privacy, and cyber-physical systems security."
-url                      : "https://mazharulmd.github.io"
+url                      : "https://mazharulislam.me"
 baseurl                  : ""
 repository               : "mazharulmd/mazharulmd.github.io"
 
