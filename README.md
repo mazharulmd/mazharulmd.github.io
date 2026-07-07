@@ -7,7 +7,7 @@
 
 Personal academic portfolio, hosted at **[mazharulmd.github.io](https://mazharulmd.github.io)**.
 
-The site presents my research and work in **cybersecurity, trustworthy AI, privacy-preserving systems, and cyber-physical systems security**, alongside my publications, experience, and credentials — built as a fast, static Jekyll site.
+The site presents my research and work in **cybersecurity, trustworthy AI, privacy-preserving systems, and cyber-physical systems security**, alongside my publications, experience, and credentials - built as a fast, static Jekyll site.
 
 ---
 
