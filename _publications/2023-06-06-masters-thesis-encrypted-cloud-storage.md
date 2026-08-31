@@ -6,7 +6,7 @@ category: thesis
 
 permalink: /publication/masters-thesis-encrypted-cloud-storage
 
-date: 2022-06-06
+date: 2020-07-07
 
 venue: "MSc Thesis, North South University"
 
