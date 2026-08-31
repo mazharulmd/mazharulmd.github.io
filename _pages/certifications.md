@@ -42,7 +42,7 @@ html[data-theme="dark"] .hx{ --hx-accent:#90a4ff; --hx-soft:#1b2233; --hx-card:#
     <p class="hx-cert-name">AWS Certified Cloud Practitioner (CLF-C02)</p>
     <span class="hx-cert-date">June 2025</span>
   </div>
-  <div class="hx-cert-link"><a href="https://www.credly.com/badges/79a20287-18e3-4f06-9867-57d56dcfd7e3" target="_blank">View Badge &#8599;</a></div>
+  <div class="hx-cert-link"><a href="https://www.credly.com/badges/26c00797-6dff-4d4a-898e-82620ba8d09c" target="_blank">View Badge &#8599;</a></div>
 </div>
 
 <h2>EC-Council</h2>
